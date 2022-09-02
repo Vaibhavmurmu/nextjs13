@@ -11,6 +11,13 @@ export default function Index() {
       </Head>
 
       <main className="flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
+        <ul>
+          <li>
+            <Link href="/about">
+              <a>About</a>
+            </Link>
+          </li>
+        </ul>
         <h1 className="text-6xl font-bold">
           Live retail streaming{' '}<br />
           <a className="text-orange-600" href="https://nextjs.org">
@@ -18,14 +25,14 @@ export default function Index() {
           </a>
         </h1>
 
-        <p className="mt-3 text-2xl">
+        <p className="mt-3 text-2xl bottom-2">
           Where the retailers build own made the live streaming store{' '}<br />
-          <tage className="mr-4 rounded-md bg-orange-500 p-2 font-mono text-lg text-white">
-            Go live & sell
-          </tage>
-          <tage className="mr-4 rounded-md bg-orange-500 p-2 font-mono text-lg text-white">
-            Go live & buy
-          </tage>
+          <code className="mr-2 rounded-md bg-gray-200 p-2 font-mono text-lg text-black">
+            Live sell
+          </code>
+          <code className="mr-2 rounded-md bg-gray-200 p-2 font-mono text-lg text-black">
+            Live buy
+          </code>
         </p>
         <button className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded mt-4">
           <Link href="/login">

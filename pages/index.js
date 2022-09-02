@@ -10,17 +10,7 @@ export default function Index() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <header className="flex flex-col items-center justify-left">
-          <h1 className="text-3xl font-bold text-centre">
-            <Link href="/">
-              <a className="text-blue-500">
-                <Image src="/vercel.svg" alt="logo" width={200} height={200} />
-              </a>
-            </Link>
-          </h1>
-          </header>
-
+      <main className="flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
         <h1 className="text-6xl font-bold">
           Live retail streaming{' '}<br />
           <a className="text-orange-600" href="https://nextjs.org">
@@ -30,12 +20,12 @@ export default function Index() {
 
         <p className="mt-3 text-2xl">
           Where the retailers build own made the live streaming store{' '}<br />
-          <code className="rounded-md bg-gray-100 p-2 font-mono text-lg">
-            Go live and sell
-          </code>
-          <code className="rounded-md bg-gray-100 p-2 font-mono text-lg">
-            Go live and buy
-          </code>
+          <tage className="mr-4 rounded-md bg-orange-500 p-2 font-mono text-lg text-white">
+            Go live & sell
+          </tage>
+          <tage className="mr-4 rounded-md bg-orange-500 p-2 font-mono text-lg text-white">
+            Go live & buy
+          </tage>
         </p>
         <button className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded mt-4">
           <Link href="/login">

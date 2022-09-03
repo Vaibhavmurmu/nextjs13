@@ -25,15 +25,10 @@ export default function Index() {
           </a>
         </h1>
 
-        <p className="mt-3 text-2xl bottom-2">
+        <p className="mt-6 text-2xl bottom-2">
           Where the retailers build own made the live streaming store{' '}<br />
-          <code className="mr-2 rounded-md bg-gray-200 p-2 font-mono text-lg text-black">
-            Live sell
-          </code>
-          <code className="mr-2 rounded-md bg-gray-200 p-2 font-mono text-lg text-black">
-            Live buy
-          </code>
         </p>
+        <div className="mt-6 flex gap-4">
         <button className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded mt-4">
           <Link href="/login">
             <a>Get Started</a>
@@ -44,6 +39,7 @@ export default function Index() {
             <a>Register &rarr;</a>
           </Link>
         </button>
+        </div>
         <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
           <a
             href="https://nextjs.org/docs"
@@ -51,7 +47,7 @@ export default function Index() {
           >
             <h3 className="text-2xl font-bold">Real Selling &rarr;</h3>
             <p className="mt-4 text-xl">
-              Where retailers can meet to buyers & demonstrate their products.
+              Where retailers can meet to buyers and demonstrate their products.
             </p>
           </a>
 
@@ -61,7 +57,7 @@ export default function Index() {
           >
             <h3 className="text-2xl font-bold">Real Buying &rarr;</h3>
             <p className="mt-4 text-xl">
-              Where buyers can meet to sellers & buy their products.
+              Where buyers can meet to sellers and buy their products.
             </p>
           </a>
 
@@ -71,7 +67,7 @@ export default function Index() {
           >
             <h3 className="text-2xl font-bold">Real Chate &rarr;</h3>
             <p className="mt-4 text-xl">
-              Follow & get started live video chatting.
+              Follow and  get started live video chatting.
             </p>
           </a>
 
@@ -90,7 +86,7 @@ export default function Index() {
           >
            <h3 className="text-2xl font-bold">Live Watch &rarr;</h3>
             <p className="mt-4 text-xl">
-              Watched live on demand streaming free.
+              Watched previous live on demand streaming free.
             </p>
           </a>
           <a
@@ -99,7 +95,7 @@ export default function Index() {
           >
             <h3 className="text-2xl font-bold">Live Q & A &rarr;</h3>
             <p className="mt-4 text-xl">
-              Ask & answer live questions.
+              Ask and answer live sell and buy questions.
             </p>
             </a>
             <a
@@ -108,7 +104,7 @@ export default function Index() {
           >
             <h3 className="text-2xl font-bold">Influencers &rarr;</h3>
             <p className="mt-4 text-xl">
-              Find live influencers community here you can support businesses to follow.
+              Find and follow live influencers here you can support businesses.
             </p>
           </a>
           <a
@@ -126,7 +122,7 @@ export default function Index() {
           >
             <h3 className="text-2xl font-bold">Votes & Polls &rarr;</h3>
             <p className="mt-4 text-xl">
-              Create a live vote poll free & give instant feedback opinion & polling for sell.
+              Give instant feedback opinion and polling for live sell and buy.
             </p>
             </a>
             <a
@@ -153,43 +149,19 @@ export default function Index() {
           >
             <h3 className="text-2xl font-bold">Mobile App &rarr;</h3>
             <p className="mt-4 text-xl">
-              Download the live retail streaming app available for iSO & Android.
+              Download the live retail streaming app available for iSO and Android.
             </p>
           </a>
-          <div className='text-2xl font-normal mt-6'>
-            <Link href='/'>
-          <a className="mt-6 w-96 p-6 text-centre hover:text-orange-600 focus:text-blue-600">
-          <h4 className="text-2xl font-bold ">
-            Create ID 
-          </h4>
-            <p className="mt-4 text-xl">
-              Create a unique ID for live.
-            </p>
-          </a>
-          </Link>
-          </div>
-          <div className='text-2xl font-normal mt-6'>
+        </div>
+          <div className='mt-6 text-xl'>
             <Link href="/">
-              <a className="mb- w-96 p-6 text-centre hover:text-orange-600 focus:text-blue-600">
-                <h4 className="text-2xl font-bold">
-                  Sign Up 
-                  </h4>
-                <p className="mt-4 text-xl">
-                  Sign up for a free account.
+              <a className="mb-6 p-6 text-centre hover:text-orange-600 focus:text-orange-600">
+                <h4 className="text-1xl font-bold">BEGIN YOUR LIVE STREAMING JOURNEY</h4>
+                <p className="mt-6 text-xl">
+                  Build own made sell and buy expercence.
                 </p>
               </a>
             </Link>
-          </div>
-          <div className='scroll-m-3 first-line:'>
-            <Link href="/">
-              <a className="mb-6 p-6 text-centre hover:text-blue-600 focus:text-blue-600">
-                <h4 className="text-2xl font-bold">Build own made sell & buy expercence</h4>
-                <p className="mt-4 text-xl">
-                  New ways to use physical reality.
-                </p>
-              </a>
-            </Link>
-          </div>
         </div>
       </main>
 
@@ -201,7 +173,7 @@ export default function Index() {
           rel="noopener noreferrer"
         >
           2022 RunAsh{' '}
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+          <Image src="/" alt="Vercel Logo" width={72} height={16} />
         </a>
       </footer>
     </div>

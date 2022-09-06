@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Image from 'next/image'
 
+
 export default function Index() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
@@ -18,7 +19,15 @@ export default function Index() {
             </Link>
           </li>
         </ul>
-        <h1 className="text-6xl font-bold">
+        <card className="mt-6 w-96 rounded-xl border p-3 text-left hover:text-blue-600 focus:text-blue-600">
+          <badge className="bg-blue-500 text-white px-2 py-1 rounded-full">
+            New 
+          </badge>
+          <text className="text-1xl font-normal mt-2">
+            <p className="text-1xl font-normal">Introducing next generation and future of retail</p>
+          </text>
+        </card>
+        <h1 className="mt-6 text-6xl font-bold">
           Live retail streaming{' '}<br />
           <a className="text-orange-600" href="https://nextjs.org">
             platform
@@ -31,12 +40,12 @@ export default function Index() {
         <div className="mt-6 flex gap-4">
         <button className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded mt-4">
           <Link href="/login">
-            <a>Get Started</a>
+            <a>Go Live Stream</a>
           </Link>
         </button>
         <button className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded mt-4">
           <Link href="/register">
-            <a>Register &rarr;</a>
+            <a>Get Started Free</a>
           </Link>
         </button>
         </div>

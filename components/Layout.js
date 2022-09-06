@@ -1,12 +1,20 @@
 import Navbar from './Navbar'
 import Footer from './Footer'
+import Head from 'next/head'
 
 export default function Layout({ children }) {
   return (
-    <>
-      <Navbar />
-      <main>{children}</main>
-      <Footer />
-    </>
+    <><>
+      <Head>
+
+        <title>Live Retail Streaming</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+    </><>
+        <Navbar />
+        <main className>{children}</main>
+
+        <Footer />
+      </></>
   )
 }

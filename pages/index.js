@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import Head from 'next/head'
-import Image from 'next/image'
 
 
 export default function Index() {
@@ -12,13 +11,6 @@ export default function Index() {
       </Head>
 
       <main className="flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
-        <ul>
-          <li>
-            <Link href="/about">
-              <a>About</a>
-            </Link>
-          </li>
-        </ul>
         <card className="mt-6 w-96 rounded-xl border p-3 text-left hover:text-blue-600 focus:text-blue-600">
           <badge className="bg-blue-500 text-white px-2 py-1 rounded-full">
             New 
@@ -173,18 +165,6 @@ export default function Index() {
             </Link>
         </div>
       </main>
-
-      <footer className="flex h-24 w-full items-center justify-center border-t">
-        <a
-          className="flex items-center justify-center gap-2"
-          href="https://vercel.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          2022 RunAsh{' '}
-          <Image src="/" alt="Vercel Logo" width={72} height={16} />
-        </a>
-      </footer>
     </div>
   )
 }

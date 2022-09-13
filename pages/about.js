@@ -10,16 +10,19 @@ export default function About() {
       </Head>
 
       <main className="flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
-        <h1 className="mt-6 text-6xl font-bold">
-          We enable retailers to{' '}<br />build real sell and buy expercence.
+        <div className='mt-14 text-1xl card'>
+                OUR MISSION
+        </div>
+        <h1 className="mt-12 text-6xl font-bold">
+          We enable retailers to build<br /> real sell expercence.
         </h1>
 
-        <p className="mt-6 text-2xl">
-            We are a team of passionate people who are building a platform to help retailers to build their<br /> own live streaming store.
+        <p className="mt-14 text-2xl">
+        We build live streaming platform for retaile businesses.
         </p>
-        <button className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded mt-9">
+        <button className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-3 px-16 rounded mt-12">
           <Link href="/">
-            <a>Join us RunAsh journey</a>
+            <a>Join us</a>
           </Link>
         </button>
         <div className="mt-6 flex max-w-6xl flex-wrap items-center justify-around sm:w-full">
@@ -50,7 +53,6 @@ export default function About() {
                     Reduce operational cost 
                 </p>
             </a>
-
             <a
                 href="https://nextjs.org/learn"
                 className="mt-6 w-96 rounded-xl border-none p-6 text-centre hover:text-blue-600 focus:text-blue-600"
@@ -61,13 +63,56 @@ export default function About() {
                 </p>
             </a>
         </div>
-        <h1 className="mt-6 text-2xl font-n">
-            RunAsh is a live retail streaming hybrid platform{' '}<br />
-        </h1>
-        <p className="mt-6 text-2xl ">
-            Where the retailer can sell their products and services in real time to their customers.
+        <p className="mt-6 text-0xl">
+            Backed by the best open source
         </p>
-        <hr className="mt-6 w-96" />
+    
+        <hr className="mt-6 w-96 border-1 border-gray-300" />
+        <div className="mt-6 w-50 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600">
+            <h1 className="text-2xl font-bold ">What we do</h1>
+            <p className="mt-4 text-xl w-full text-left">
+            We are created new model of live streaming marketplace and environment where retailers can <br />meet to buyers and face to face demonstrate and presentation their products<br />
+            <Link href="/about">
+                <a className="text-blue-600 hover:text-blue-700">Learn more &rarr;</a>
+            </Link>
+            </p>
+        </div>
+        <div className="mt-6 w-50 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600">
+            <h1 className="mt-9 text-2xl font-bold">What we going to make</h1>
+            <p className="mt-4 text-xl w-full text-left">
+            We are committed to building a live retail streaming hybrid platform for unorganised retailers <br />and new ways to use physical reality experience<br />
+            <Link href="/about">
+                <a className="text-blue-600">Learn more &rarr;</a>
+            </Link>
+            </p>
+        </div>
+        <div className="mt-6 w-50 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600">
+            <h1 className="mt-9 text-2xl font-bold">Founder story</h1>
+            <p className="mt-4 text-xl text-left">
+            We are both brothers,our business journey started in 2007 from a small offline retail store, the <br />Journey from the school classroom to the board room<br />
+            <Link href="/about">
+                <a className="text-blue-600">Read more &rarr;</a>
+            </Link>
+            </p>
+        </div>
+        <div className="mt-6 w-50 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600">
+            <h1 className="mt-9 text-2xl font-bold">Journey</h1>
+            <p className="mt-4 text-xl text-left">
+            Journey from a small village in India to Sillicone Valley Y Combinator startup school community <br />member<br />
+            <Link href="/">
+                <a className="text-blue-600">Read more &rarr;</a>
+            </Link>
+            </p>
+        </div>
+        <div className="bg-black hover:bg-black text-white font-bold py-12 px-16 rounded mt-12 max-w-4xl">
+            <h1 className="text-5xl font-bold">Build and shape the future of live-retail</h1>
+            <button className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-4 px-16 rounded mt-12">
+                <Link href="/">
+                    <a>Join us</a>
+                </Link>
+            </button> 
+         </div>   
+        
 
      </main>
     </div>

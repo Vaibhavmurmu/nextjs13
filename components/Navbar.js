@@ -4,11 +4,16 @@ import Link from "next/link";
 export default function Navbar() {
     return (
         <main className="flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
-        <div className="flex flex-row items-center justify-between w-full px-6 py-4">
+            <div className="flex h-20 w-full items-center justify-center border-b">
+                <text className="text-1xl font-normal text-black mt-1 w-60 h-6">
+                    <p className="text-1xl font-normal">Welcome to RunAsh &rarr;</p>
+                </text>
+            </div>
+        <div className="flex flex-row items-center justify-between w-full px-6 py-4 border-b border-collapse scroll-sticky border-hidden overflow-x-hidden">
         <div className="flex flex-row items-center">
             <img
             src="/"
-            alt="logo"
+            alt=""
             className="w-10 h-10 mr-2 cursor-pointer"
             />
             <h1 className="text-2xl font-n">RunAsh</h1>

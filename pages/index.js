@@ -19,29 +19,32 @@ export default function Index() {
             <p className="text-1xl font-normal">Introducing next generation and future of live-retailing &rarr;</p>
           </text>
         </card>
-        <h1 className="mt-6 text-6xl font-bold">
+        <h1 className="mt-12 text-6xl font-bold">
           Live retail streaming{' '}<br />
           <a className="text-orange-600" href="https://nextjs.org">
             platform
           </a>
         </h1>
 
-        <p className="mt-6 text-2xl bottom-2">
-          Where the retailers build own made the live streaming store and sell{' '}<br />experience to the customers.
+        <p className="mt-12 text-2xl bottom-2">
+          Where the retailers build own made live streaming store and{' '}<br />real selling experience.
         </p>
-        <div className="mt-6 flex gap-4">
-        <button className="bg-orange-600 hover:bg-green-600 text-white font-bold py-2 px-4 rounded mt-4">
+        <div className="mt-10 flex gap-4">
+        <button className="bg-orange-600 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded mt-12">
           <Link href="/login">
             <a>Go live stream</a>
           </Link>
         </button>
-        <button className="bg-orange-600 hover:bg-green-600 text-white font-bold py-2 px-4 rounded mt-4">
+        <button className="bg-orange-600 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded mt-12">
           <Link href="/register">
             <a>Watched live</a>
           </Link>
         </button>
         </div>
-        <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
+            <p className='mt-8 text-2xl font-normal'>
+                Unique experience
+            </p>
+        <div className="mt-12 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
           <a
             href="https://nextjs.org/docs"
             className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
@@ -49,6 +52,12 @@ export default function Index() {
             <h3 className="text-2xl font-bold">Real Selling</h3>
             <p className="mt-4 text-xl">
               Where retailers can meet to buyers and demonstrate their products.
+              <br />
+              <code className="text-base font-normal bg-gray-100 rounded-md p-1">
+                <Link href="/login">
+                <a>Learn more &rarr;</a>
+                </Link>
+              </code>
             </p>
           </a>
 
@@ -59,6 +68,12 @@ export default function Index() {
             <h3 className="text-2xl font-bold">Real Buying</h3>
             <p className="mt-4 text-xl">
               Where buyers can meet to sellers and buy their products.
+              <br />
+              <code className="text-base font-normal bg-gray-100 rounded-md p-1">
+                <Link href="/register">
+                <a>Learn more &rarr;</a>
+                </Link>
+              </code>
             </p>
           </a>
 
@@ -69,6 +84,12 @@ export default function Index() {
             <h3 className="text-2xl font-bold">Real Chate</h3>
             <p className="mt-4 text-xl">
               Follow and  get started live video chatting.
+              <br />
+              <code className="text-base font-normal bg-gray-100 rounded-md p-1">
+                <Link href="/chat">
+                <a>Learn more &rarr;</a>
+                </Link>
+              </code>
             </p>
           </a>
 
@@ -163,7 +184,7 @@ export default function Index() {
                 </p>
               </a>
             </Link>
-        </div>
+        </div>   
       </main>
     </div>
   )

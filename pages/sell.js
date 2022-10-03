@@ -232,10 +232,6 @@ export default function Sell() {
             4.Than you are ready to go live
           </p>
           </div>
-
-          <div className='iframe-container'>
-          <iframe width="560" height="315" src="https://" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
           <p className='mt-12 text-3xl font-b'>
             Watched demo
           </p>

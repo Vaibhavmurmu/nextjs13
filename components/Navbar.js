@@ -11,7 +11,7 @@ export default function Navbar() {
             </div>
         <div className="flex flex-row items-center justify-between w-full px-6 py-4">
         <div className="flex flex-row items-centre">
-            <img
+            <image
             src="/"
             alt=""
             className="w-10 h-10 mr-2 cursor-pointer"

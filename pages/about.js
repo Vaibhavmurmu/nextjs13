@@ -105,8 +105,8 @@ export default function About() {
             </p>
         </div>
         <div className="bg-black hover:bg-black text-white font-bold py-12 px-16 rounded mt-12 max-w-4xl">
-            <h1 className="text-5xl font-bold">Build and shape the future of live-retail</h1>
-            <button className="bg-orange-600 hover:bg-orange-700 text-white font-bold py-4 px-16 rounded mt-12">
+            <h1 className="text-5xl font-bold">Shape the future of live retail</h1>
+            <button className="bg-orange-600 hover:bg-blue-700 text-white font-bold py-4 px-16 rounded mt-12">
                 <Link href="/">
                     <a>Join us</a>
                 </Link>

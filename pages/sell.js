@@ -168,7 +168,7 @@ export default function Sell() {
         <p className='mt-8 text-2xl font-normal'>
             Benifits for live sell
         </p>
-        <div className="mt-6 flex max-w-8xl flex-wrap items-center justify-around sm:w-full">
+        <div className="tm-6 flex max-w-8xl flex-wrap items-center justify-around sm:w-full"> 
           <a
             href="https://nextjs.org/docs"
             className="mt-6 w-96 rounded-xl  p-6 text-left hover:text-blue-600 focus:text-orange-600"
@@ -218,6 +218,21 @@ export default function Sell() {
           <p className='mt-12 text-3xl font-b'>
             How it works
           </p>
+          <div className="mt-6 flex max-w-8xl flex-wrap items-center justify-around sm:w-full">
+          <p className='mt-6 w-25 rounded-xl p-6 text-left hover:text-blue-600 focus:text-blue-600'>
+            1.Create your live seller account
+            </p>
+            <p className='mt-6 w-25 rounded-xl p-6 text-left hover:text-blue-600 focus:text-blue-600'>
+            2.Create and upload your live streaming
+            </p>
+            <p className='mt-6 w-25 rounded-xl p-6 text-left hover:text-blue-600 focus:text-blue-600'>
+            3.Set your prefered date and time
+            </p>
+            <p className='mt-6 w-25 rounded-xl p-6 text-left hover:text-blue-600 focus:text-blue-600'>
+            4.Than you are ready to go live
+          </p>
+          </div>
+
           <div className='iframe-container'>
           <iframe width="560" height="315" src="https://" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>

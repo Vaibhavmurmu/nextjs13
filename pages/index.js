@@ -43,7 +43,7 @@ export default function Index() {
         </p>
            <h1 className="mt-2 text-2xl font-n">
                 <a className="text-black-600" href="https://nextjs.org">
-                Unique real experience
+                Unique real experience ✨
                 </a>
             </h1>
             <p className="mt-2 text-1xl bottom-2">
@@ -214,7 +214,7 @@ export default function Index() {
           Explore more <b className='text-blue-600'>features</b> and real <b className='text-blue-600'>selling</b> and <b className='text-blue-600'>buying</b> experience on runash.<b className='text-blue-600'>live</b>.
         </p>
           <div className='mt-6 text-xl'>
-                <h4 className="text-1xl text-orange-600 font-bold">BEGIN YOUR LIVE STREAMING JOURNEY</h4>
+                <h4 className="text-1xl text-orange-600 font-bold">BEGIN YOUR LIVE STREAMING JOURNEY ✨</h4>
                 <p className="mt-6 text-centre text-base text-black text-1xl bottom-2">
                   Build own made sell and buy expercence.
                 </p>

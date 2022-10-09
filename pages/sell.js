@@ -12,13 +12,10 @@ export default function Sell() {
 
       <main className="flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
         <card className="mt-12 w-100 rounded-xl border p-3 text-left hover:text-blue-600 focus:text-blue-600">
-          <badge className="bg-blue-500 text-white px-2 py-1 rounded-full">
-            New 
-          </badge>
           <text className="text-1xl font-normal mt-2">
-            <p className="text-1xl font-normal">Introducing next generation and future of real selling experience &rarr;</p>
+            <p className="text-1xl font-normal"><button className="bg-blue-600 text-white font-n py-1 px-3 rounded mt-0">Latest</button> Introducing next generation and futre of retail &rarr;</p>   
           </text>
-        </card>
+          </card> 
         <h1 className="mt-12 text-6xl font-bold">
           Build your own made{' '}<br /> 
           <a className="text-orange-600" href="https://nextjs.org">
@@ -27,7 +24,7 @@ export default function Sell() {
         </h1>
 
         <p className="mt-12 text-2xl bottom-2">
-        Give your store a real selling experience on a complete{' '}<br />real digitization.
+        Give your store a real selling experience on a complete real digitization.
         </p>
         <div className="mt-10 flex gap-4">
         <button className="bg-orange-600 hover:bg-green-600 text-white font-bold py-3 px-8 rounded mt-12">
@@ -165,8 +162,11 @@ export default function Sell() {
             </p>
             </a>
         </div>
-        <p className='mt-8 text-2xl font-normal'>
+        <h2 className='mt-24 text-2xl font-normal'>
             Benifits for live sell
+        </h2>
+        <p className="mt-6">
+          Your business,your sell experience.your benifits and earn more.
         </p>
         <div className="tm-6 flex max-w-8xl flex-wrap items-center justify-around sm:w-full"> 
           <a
@@ -215,26 +215,37 @@ export default function Sell() {
             </p>
           </a>
           </div>
-          <p className='mt-12 text-3xl font-b'>
+          <h2 className='mt-12 text-3xl font-b'>
             How it works
+          </h2>
+          <p className="mt-6">
+           Get started in few steps and go live streaming
           </p>
-          <div className="mt-6 flex max-w-8xl flex-wrap items-center justify-around sm:w-full">
-          <p className='mt-6 w-25 rounded-xl p-6 text-left hover:text-blue-600 focus:text-blue-600'>
-            1.Create your live seller account
-            </p>
-            <p className='mt-6 w-25 rounded-xl p-6 text-left hover:text-blue-600 focus:text-blue-600'>
-            2.Create and upload your live streaming
-            </p>
-            <p className='mt-6 w-25 rounded-xl p-6 text-left hover:text-blue-600 focus:text-blue-600'>
-            3.Set your prefered date and time
-            </p>
-            <p className='mt-6 w-25 rounded-xl p-6 text-left hover:text-blue-600 focus:text-blue-600'>
-            4.Than you are ready to go live
+          <div className="mt-8 flex max-w-8xl flex-wrap items-center justify-around sm:w-full bg-amber-50 p-8 rounded">
+          <p className='mt-0 w-25 rounded-xl p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">1</button>Create your live seller account
+          </p>
+          <p className='mt-0 w-25 rounded-xl p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">1</button>Create and upload your live streaming
+          </p>
+          <p className='mt-0 w-25 rounded-xl p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">1</button>Set your prefered date and time
+          </p>
+          <p className='mt-0 w-25 rounded-xl p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">1</button>Than you are ready to go live
           </p>
           </div>
-          <p className='mt-12 text-3xl font-b'>
-            Watched demo
+          <h2 className='mt-24 text-3xl font-b'>
+            The Live Demonstration
+            </h2>
+          <p className="mt-6">
+           Our team explain you how to go live sell
           </p>
+          <div className="mt-24 flex max-w-8xl flex-wrap items-centre justify-around sm:-w-full bg-amber-50 p-8 rounded">
+           <h2 className="text-1xl font-bold">
+            Get support 24 x 7 x 365 days with CEO.
+            </h2>
+            <p className="text-centre">
+            "We belive our helpfullness discipline and culture"
+            </p>
+            <button className="bg-black hover:bg-blue-600 text-white font-bold py-3 px-8 rounded mt-0 text-centre">Connect with us</button>
+          </div>
         </main>
         </div>
         )

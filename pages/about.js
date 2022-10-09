@@ -104,8 +104,8 @@ export default function About() {
             </Link>
             </p>
         </div>
-        <div className="bg-black hover:bg-black text-white font-bold py-12 px-16 rounded mt-12 max-w-4xl">
-            <h1 className="text-5xl font-bold">Shape the future of live retail</h1>
+        <div className="mt-8 flex max-w-8xl flex-wrap item-centre justify-around sm:w-full bg-amber-50 p-8 rounded">
+            <h1 className="text-2xl font-bold">Shape the future of live retail</h1>
             <button className="bg-orange-600 hover:bg-blue-700 text-white font-bold py-4 px-16 rounded mt-12">
                 <Link href="/">
                     <a>Join us</a>

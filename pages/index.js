@@ -13,7 +13,7 @@ export default function Index() {
       <main className="flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
         <card className="mt-12 w-100 rounded-xl border p-3 text-left hover:text-blue-600 focus:text-blue-600">
           <text className="text-1xl font-normal mt-2">
-            <p className="text-1xl font-normal"><button className='bg-blue-600 text-white font-n py-1 px-3 rounded mt-0'>New</button> Introducing next generation and future of live-retailing &rarr;</p>
+            <p className="text-1xl font-normal"><button className='bg-blue-600 text-white font-n py-1 px-3 rounded mt-0'>New</button> Introducing next generation and future of retail &rarr;</p>
           </text>
         </card>
         <h1 className="mt-12 text-6xl font-bold">
@@ -24,7 +24,7 @@ export default function Index() {
         </h1>
 
         <p className="mt-12 text-2xl bottom-2">
-          Where the retailers build own made live streaming store and{' '}<br />real selling experience.
+          Where the retailers build own made live streaming store.
         </p>
         <div className="mt-10 flex gap-6">
         <button className="bg-orange-600 hover:bg-black text-white font-medium py-3 px-12 rounded-lg p-3 mt-12">
@@ -38,18 +38,18 @@ export default function Index() {
           </Link>
         </button>
         </div>
-        <p className="mt-12 text-1xl bottom-2">
+        <p className="mt-12 text-0xl bottom-2">
             Get started free
         </p>
-           <h1 className="mt-2 text-2xl font-n">
+           <h1 className="mt-2 text-2xl font-b">
                 <a className="text-black-600" href="https://nextjs.org">
-                Unique real experience ✨
+                Unique experience ✨
                 </a>
             </h1>
             <p className="mt-2 text-1xl bottom-2">
                 Real worlds real selling and buying reality
             </p>
-        <div className="mt-12 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
+        <div className="mt-12 flex max-w-7xl flex-wrap items-center justify-around sm:w-full">
           <a
             href="https://nextjs.org/docs"
             className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black"
@@ -82,7 +82,7 @@ export default function Index() {
             href="https://github.com/vercel/next.js/tree/canary/examples"
             className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-blue-600"
           >
-            <h3 className="text-2xl font-bold">Real Chate</h3>
+            <h3 className="text-2xl font-bold">Real Chat</h3>
             <p className="mt-4 text-xl">
               Follow and  get started live video chatting.
               <br />
@@ -210,8 +210,8 @@ export default function Index() {
             </p>
           </a>
         </div>
-        <p className="mt-8 text-center text-base text-gray-400">
-          Explore more <b className='text-blue-600'>features</b> and real <b className='text-blue-600'>selling</b> and <b className='text-blue-600'>buying</b> experience on runash.<b className='text-blue-600'>live</b>.
+        <p className="mt-8 text-0xl text-center text-base text-gray-400 hover:text-black">
+          Explore more features and real selling and buying experience on runash.live
         </p>
           <div className='mt-6 text-xl'>
                 <h4 className="text-1xl text-orange-600 font-bold">BEGIN YOUR LIVE STREAMING JOURNEY ✨</h4>
@@ -221,9 +221,13 @@ export default function Index() {
         </div>
         
 
-        <p className="mt-6 w-100 rounded-xl border p-4 text-left">
-          Give your valuable feedback to improve live sell and buy experience better &rarr;
-        </p>
+        <p className="mt-12 w-100 rounded-xl border p-4 text-left"><button className="bg-blue-600 text-white hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">feedback</button><Link href="/"><a>Give your most valuable feedback to improve live experience better &rarr;</a></Link></p>
+        <div className="mt-8 flex max-w-8xl flex-wrap item-centre justify-around sm:w-full bg-amber-50 p-8 rounded">
+          <h2 className="text-bold">
+            Get live updates
+          </h2>
+          <input className="placeholder-show:border-gry-500..." placeholder="your@example.com"></input><button className="bg-black text-white hover:bg-white hover:text-black font-n py-1 px-3 rounded mt-0">Subscribe</button>
+        </div>
       </main>
     </div>
   )

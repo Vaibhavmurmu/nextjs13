@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Navbar() {
     return (
-        <main className="flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
+        <main className="flex w-full flex-1 flex-col items-left justify-centre px-20 text-center">
             <div className="flex h-20 w-full items-center justify-center">
                 <text className="text-1xl font-normal text-black mt-1 w-60 h-6">
                     <p className="text-1xl font-normal">Welcome to RunAsh &rarr;</p>

@@ -8,6 +8,18 @@ export default function Watch() {
             <h1 className="text-6xl font-n">
                 Watch live stream
             </h1>
+            <p className="mt-6">
+                Watch previous live on demand streaming
+            </p>
+            <div className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-blue-600">
+                <Image className="inline" src="/" alt=""></Image>
+                <h2 className="text-2xl font-n">
+                 Organic fruit
+                </h2>
+                <p className="mt-6">
+                   Fresh
+                </p>
+            </div>
         </div>
         )
     }

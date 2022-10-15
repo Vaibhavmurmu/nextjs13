@@ -26,12 +26,8 @@ export default function Index() {
         <p className="mt-12 text-2xl bottom-2">
           Where the retailers build own made live streaming store.
         </p>
-        <div className="mt-10 flex gap-6">
-        <button className="bg-orange-600 hover:bg-black text-white font-medium py-3 px-12 rounded-lg p-3 mt-12">
-          <Link href="/login">
-            <a>Go live stream</a>
-          </Link>
-        </button>
+        <div className="mt-10 flex gap-6 absolute pointer-events-auto">
+        <inpute type="text" placeholder="search" className="..."></inpute>
         <button className="bg-orange-600 hover:bg-black text-white font-medium py-3 px-12 rounded-lg p-3 mt-12">
           <Link href="/register">
             <a>Watched live</a>
@@ -52,7 +48,7 @@ export default function Index() {
         <div className="mt-12 flex max-w-7xl flex-wrap items-center justify-around sm:w-full">
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black"
+            className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white"
           >
             <h3 className="text-2xl font-bold">Real Selling</h3>
             <p className="mt-4 text-xl">
@@ -210,14 +206,26 @@ export default function Index() {
             </p>
           </a>
         </div>
-        <p className="mt-8 text-0xl text-center text-base text-gray-400 hover:text-black">
-          Explore more features and real selling and buying experience on runash.live
+        <p className="mt-8 text-0xl text-center text-base text-black hover:text-black">
+          Explore more features and real selling and buying experience on runash
         </p>
-          <div className='mt-6 text-xl'>
-                <h4 className="text-1xl text-orange-600 font-bold">BEGIN YOUR LIVE STREAMING JOURNEY ✨</h4>
+          <div className='mt-8 text-xl'>
+                <h4 className="text-1xl text-orange-600 font-bold">Begin your live streaming journey ✨</h4>
                 <p className="mt-6 text-centre text-base text-black text-1xl bottom-2">
-                  Build own made sell and buy expercence.
+                  Building own made sell and buy expercence.
                 </p>
+        </div>
+        <div className="mt-10 flex gap-6">
+        <button className="bg-orange-600 hover:bg-black text-white font-medium py-3 px-12 rounded-lg p-3 mt-12">
+          <Link href="/login">
+            <a>Go live stream</a>
+          </Link>
+        </button>
+        <button className="bg-orange-600 hover:bg-black text-white font-medium py-3 px-12 rounded-lg p-3 mt-12">
+          <Link href="/register">
+            <a>Watched live</a>
+          </Link>
+        </button>
         </div>
         
 

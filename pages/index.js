@@ -26,7 +26,7 @@ export default function Index() {
         <p className="mt-12 text-2xl bottom-2">
           Where the retailers build own made live streaming store.
         </p>
-        <div className="flex gap-4 mt-12 flex max-w-0xl flex-wrap items-center justify-around">
+        <div className="flex gap-6 mt-12 flex max-w-0xl flex-wrap items-center justify-around">
         <button className="bg-orange-600 hover:bg-black text-white font-medium py-3 px-12 rounded-lg p-3 mt-12">
           <Link href="/register">
             <a>Go live stream</a>
@@ -219,7 +219,7 @@ export default function Index() {
                   Building own made sell and buy expercence.
                 </p>
         </div>
-        <div className="flex gap-4 mt-12 flex max-w-1xl flex-wrap items-center justify-around">
+        <div className="flex gap-6 mt-12 flex max-w-1xl flex-wrap items-center justify-around">
         <button className="bg-black hover:bg-white text-white font-medium hover:text-black py-3 px-12 rounded-lg p-3 mt-12">
           <Link href="/login">
             <a>Go live stream</a>
@@ -238,7 +238,7 @@ export default function Index() {
           <h2 className="text-bold">
             Get live updates
           </h2>
-          <input className="placeholder-show:border-gry-500 text-centre..." placeholder="your@example.com"></input><button className="bg-black text-white hover:bg-white hover:text-black font-n py-1 px-3 rounded mt-0">Subscribe</button>
+          <input className="placeholder-show:border-gry-500 text-centre p-4..." placeholder="your@example.com"></input><button className="bg-black text-white hover:bg-white hover:text-black font-n py-1 px-3 rounded mt-0">Subscribe</button>
         </div>
       </main>
     </div>

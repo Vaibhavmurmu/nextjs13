@@ -14,7 +14,7 @@ export default function Navbar() {
             <image
             src="/"
             alt=""
-            className="w-10 h-10 mr-2 cursor-pointer"
+            className="w-6 h-10 mr-1 cursor-pointer"
             />
             <h1 className="text-2xl font-b">RunAsh</h1>
         </div>

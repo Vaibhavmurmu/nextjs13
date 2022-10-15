@@ -40,8 +40,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    2022 RunAsh{' '}
-                    <Image src="/" alt="Vercel Logo" width={72} height={16} />
+                    © 2022 RunAsh{' '} All rights reserved
                 </a>
             </div>
         </div>

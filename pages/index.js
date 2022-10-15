@@ -26,8 +26,12 @@ export default function Index() {
         <p className="mt-12 text-2xl bottom-2">
           Where the retailers build own made live streaming store.
         </p>
-        <div className="mt-10 flex gap-6 absolute pointer-events-auto">
-        <inpute type="text" placeholder="search" className="..."></inpute>
+        <div className="mt-10 flex gap-6">
+        <button className="bg-orange-600 hover:bg-black text-white font-medium py-3 px-12 rounded-lg p-3 mt-12">
+          <Link href="/register">
+            <a>Go live</a>
+         </Link>
+        </button>
         <button className="bg-orange-600 hover:bg-black text-white font-medium py-3 px-12 rounded-lg p-3 mt-12">
           <Link href="/register">
             <a>Watched live</a>

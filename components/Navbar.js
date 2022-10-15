@@ -9,7 +9,7 @@ export default function Navbar() {
                     <p className="text-1xl font-normal">Welcome to RunAsh &rarr;</p>
                 </text>
             </div>
-        <div className="flex flex-row items-center justify-between w-full px-6 py-4">
+        <div className="flex gap-6 mt-12 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
         <div className="flex flex-row items-centre">
             <image
             src="/"

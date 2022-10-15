@@ -9,8 +9,8 @@ export default function Navbar() {
                     <p className="text-1xl font-normal">Welcome to RunAsh &rarr;</p>
                 </text>
             </div>
-        <div className="flex flex-row items-center">
-        <div className="flex flex-row items-centre">
+        <div className="flex flex-row items-left">
+        <div className="flex flex-row items-left">
             <image
             src="/"
             alt=""
@@ -18,7 +18,7 @@ export default function Navbar() {
             />
             <h1 className="text-2xl font-b">RunAsh</h1>
         </div>
-        <div className="flex flex-row item-centre space-x-4">
+        <div className="flex flex-row item-centre">
             <ul className="flex flex-row item-centre">
                 <li className="mr-10">
                     <Link href="/live">

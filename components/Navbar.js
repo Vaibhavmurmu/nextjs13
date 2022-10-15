@@ -18,7 +18,7 @@ export default function Navbar() {
             />
             <h1 className="text-2xl font-b">RunAsh</h1>
         </div>
-        <div className="flex flex-row item-centre">
+        <div className="flex flex-row item-centre space-x-4">
             <ul className="flex flex-row item-centre">
                 <li className="mr-10">
                     <Link href="/live">

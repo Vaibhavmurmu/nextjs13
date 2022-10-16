@@ -220,10 +220,10 @@ export default function Index() {
                 </p>
         </div>
 
-        <div className="bg-repeat-x bg-centre" style="background-image: url(vercel.svg)"></div>
-        <div className="bg-repeat-x bg-centre" style="background-image: url(vercel.svg)"></div>
-        <div className="bg-repeat-x bg-centre" style="background-image: url(vercel.svg)"></div>
-        <div className="bg-repeat-x bg-centre" style="background-image: url(vercel.svg)"></div>
+        <div className="bg-repeat-x bg-centre" style="background-image: url()"></div>
+        <div className="bg-repeat-x bg-centre" style="background-image: url()"></div>
+        <div className="bg-repeat-x bg-centre" style="background-image: url()"></div>
+        <div className="bg-repeat-x bg-centre" style="background-image: url()"></div>
 
         <div className="flex gap-6 mt-12 flex max-w-1xl flex-wrap items-center justify-around">
         <button className="bg-black hover:bg-white text-white font-medium hover:text-black py-3 px-12 rounded-lg p-3 mt-12">

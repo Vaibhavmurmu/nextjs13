@@ -216,7 +216,7 @@ export default function Index() {
           <div className='mt-8 text-xl'>
                 <h4 className="text-1xl text-orange-600 font-bold">Begin your live streaming journey ✨</h4>
                 <p className="mt-4 text-centre text-base text-black text-1xl bottom-2">
-                  Building own made sell and buy expercence.
+                  Lets building your own made sell and buy expercence.
                 </p>
         </div>
 
@@ -245,12 +245,12 @@ export default function Index() {
           </Link>
           </p>
         <div className="mt-2 grid grid-flow-col">
-          <button className="bg-white-600 text-white hover:bg-gray-50 hover:text-black font-n py-1 px-3 rounded mt-0">😭</button>
-          <button className="bg-white-600 text-white hover:bg-gray-50 hover:text-black font-n py-1 px-3 rounded mt-0">😕</button>
-          <button className="bg-white-600 text-white hover:bg-gray-50 hover:text-black font-n py-1 px-3 rounded mt-0">😃</button>
-          <button className="bg-white-600 text-white hover:bg-gray-50 hover:text-black font-n py-1 px-3 rounded mt-0">🤩</button>
+          <button className="bg-white-600 text-gray-400 hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">😭</button>
+          <button className="bg-white-600 text-gray-400 hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">😕</button>
+          <button className="bg-white-600 text-gray-400 hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">😃</button>
+          <button className="bg-white-600 text-gray-400 hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">🤩</button>
          </div>
-          <button className="bg-blue-600 text-white hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">feedback</button>
+          <button className="mt-12 bg-blue-600 text-white hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">feedback</button>
         
 
         <div className="mt-8 flex max-w-8xl flex-wrap item-centre justify-around sm:w-full bg-amber-50 p-8 rounded">

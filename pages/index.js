@@ -220,8 +220,9 @@ export default function Index() {
                 </p>
         </div>
 
-        <div className="mt-8 bg-repeat-x bg-centre">
-          <img className="mr-6 mt-6 " src="/vercel.svg" alt="" width="50" height="140"></img>
+        <div className="mt-8 bg-repeat-x bg-centre" style="bacground-image">
+          <img className="mr-6 mt-6 " src="/vercel.svg" alt="" width="50" height="140"></img><img className="mr-6 mt-6 " src="/vercel.svg" alt="" width="50" height="140"></img>
+          <img className="mr-6 mt-6 " src="/vercel.svg" alt="" width="50" height="140"></img><img className="mr-6 mt-6 " src="/vercel.svg" alt="" width="50" height="140"></img>
         </div>
       
 
@@ -239,7 +240,7 @@ export default function Index() {
         </div>
         
 
-        <p className="mt-12 w-full rounded-xl border p-5 text-left"><button className="bg-blue-600 text-white hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">feedback</button><Link href="/"><a> Give your most valuable suggestion to improve live experience better</a></Link></p>
+        <p className="mt-12 w-full rounded-xl border p-5 text-centre"><button className="bg-blue-600 text-white hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">feedback</button><Link href="/"><a> Give your most valuable suggestion to improve live experience better</a></Link></p>
         <div className="mt-8 flex max-w-8xl flex-wrap item-centre justify-around sm:w-full bg-amber-50 p-8 rounded">
           <h2 className="text-bold">
             Get live updates

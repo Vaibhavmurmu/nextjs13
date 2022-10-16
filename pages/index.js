@@ -244,10 +244,12 @@ export default function Index() {
              <a>Give your most valuable feedback to improve live experience better</a>
           </Link>
           </p>
+        <div className="mt-2 grid grid-flow-col">
           <button className="bg-white-600 text-white hover:bg-gray-50 hover:text-black font-n py-1 px-3 rounded mt-0">😭</button>
           <button className="bg-white-600 text-white hover:bg-gray-50 hover:text-black font-n py-1 px-3 rounded mt-0">😕</button>
           <button className="bg-white-600 text-white hover:bg-gray-50 hover:text-black font-n py-1 px-3 rounded mt-0">😃</button>
           <button className="bg-white-600 text-white hover:bg-gray-50 hover:text-black font-n py-1 px-3 rounded mt-0">🤩</button>
+         </div>
           <button className="bg-blue-600 text-white hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">feedback</button>
         
 

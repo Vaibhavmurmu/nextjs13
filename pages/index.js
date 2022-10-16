@@ -219,8 +219,12 @@ export default function Index() {
                   Building own made sell and buy expercence.
                 </p>
         </div>
-        <div class="bg-repeat-x bg-centre" style="background-image: url(vercel.svg)"></div><div className="bg-repeat-x bg-centre" style="bacground-image:url(vercel.svg)"></div>
-        <div className="bg-repeat-x bg-centre" style="background-image: url(vercel.svg)"></div><div className="bg-repeat-x bg-centre" style="background-image: url(vercel.svg)"></div>
+
+        <div className="bg-repeat-x bg-centre" style="background-image: url(vercel.svg)"></div>
+        <div className="bg-repeat-x bg-centre" style="background-image: url(vercel.svg)"></div>
+        <div className="bg-repeat-x bg-centre" style="background-image: url(vercel.svg)"></div>
+        <div className="bg-repeat-x bg-centre" style="background-image: url(vercel.svg)"></div>
+
         <div className="flex gap-6 mt-12 flex max-w-1xl flex-wrap items-center justify-around">
         <button className="bg-black hover:bg-white text-white font-medium hover:text-black py-3 px-12 rounded-lg p-3 mt-12">
           <Link href="/login">
@@ -235,7 +239,7 @@ export default function Index() {
         </div>
         
 
-        <p className="mt-12 w-96 rounded-xl border p-5 text-left"><button className="bg-blue-600 text-white hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">feedback<Link href="/"><a> Give your most valuable suggestion to improve live experience better</a></Link></button></p>
+        <p className="mt-12 w-96 rounded-xl border p-5 text-left"><button className="bg-blue-600 text-white hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">feedback</button><Link href="/"><a> Give your most valuable suggestion to improve live experience better</a></Link></p>
         <div className="mt-8 flex max-w-8xl flex-wrap item-centre justify-around sm:w-full bg-amber-50 p-8 rounded">
           <h2 className="text-bold">
             Get live updates

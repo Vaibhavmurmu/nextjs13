@@ -221,7 +221,7 @@ export default function Index() {
         </div>
 
         <div className="mt-8 grid grid-flow-col bg-repeat">
-          <img className="mr-6 mt-6 bg-repeat-x bg-centre" src="/vercel.svg" alt="" width="80height="60></img><img className="mr-6 mt-6 bg-repeat-x bg-centre" src="/vercel.svg" alt="" width="80height="60</img>
+          <img className="mr-6 mt-6 bg-repeat-x bg-centre" src="/vercel.svg" alt="" width="80 height="60></img><img className="mr-6 mt-6 bg-repeat-x bg-centre" src="/vercel.svg" alt="" width="80height="60</img>
           <img className="mr-6 mt-6 bg-repeat-x bg-centre" src="/vercel.svg" alt="" width="80 height="60</img><img className="mr-6 mt-6 bg-repeat-x bg-centre" src="/vercel.svg" alt="" width="80height="60</img>
         </div>
       

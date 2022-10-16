@@ -243,12 +243,13 @@ export default function Index() {
            <Link href="/">
              <a>Give your most valuable feedback to improve live experience better</a>
           </Link>
-          <button className="bg-blue-600 text-white hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">😭</button>
-          <button className="bg-blue-600 text-white hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">😕</button>
-          <button className="bg-blue-600 text-white hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">😃</button>
-          <button className="bg-blue-600 text-white hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">🤩</button>
+          </p>
+          <button className="bg-white-600 text-white hover:bg-gray-50 hover:text-black font-n py-1 px-3 rounded mt-0">😭</button>
+          <button className="bg-white-600 text-white hover:bg-gray-50 hover:text-black font-n py-1 px-3 rounded mt-0">😕</button>
+          <button className="bg-white-600 text-white hover:bg-gray-50 hover:text-black font-n py-1 px-3 rounded mt-0">😃</button>
+          <button className="bg-white-600 text-white hover:bg-gray-50 hover:text-black font-n py-1 px-3 rounded mt-0">🤩</button>
           <button className="bg-blue-600 text-white hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">feedback</button>
-        </p>
+        
 
         <div className="mt-8 flex max-w-8xl flex-wrap item-centre justify-around sm:w-full bg-amber-50 p-8 rounded">
           <h2 className="text-bold">

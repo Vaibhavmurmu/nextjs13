@@ -220,7 +220,7 @@ export default function Index() {
                 </p>
         </div>
 
-        <div className="mt-8 bg-repeat-x bg-centre" style="bacground-image">
+        <div className="mt-8 bg-repeat-x bg-centre">
           <img className="mr-6 mt-6 " src="/vercel.svg" alt="" width="50" height="140"></img><img className="mr-6 mt-6 " src="/vercel.svg" alt="" width="50" height="140"></img>
           <img className="mr-6 mt-6 " src="/vercel.svg" alt="" width="50" height="140"></img><img className="mr-6 mt-6 " src="/vercel.svg" alt="" width="50" height="140"></img>
         </div>

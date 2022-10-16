@@ -240,7 +240,7 @@ export default function Index() {
         </div>
         
 
-        <p className="mt-12 w-96 rounded-xl border p-5 text-centre"><button className="bg-blue-600 text-white hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">feedback</button><Link href="/"><a> Give your most valuable suggestion to improve live experience better</a></Link></p>
+        <p className="mt-12 w-full rounded-xl border p-5 text-centre"><button className="bg-blue-600 text-white hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">feedback</button><Link href="/"><a> Give your most valuable suggestion to improve live experience better</a></Link></p>
         <div className="mt-8 flex max-w-8xl flex-wrap item-centre justify-around sm:w-full bg-amber-50 p-8 rounded">
           <h2 className="text-bold">
             Get live updates

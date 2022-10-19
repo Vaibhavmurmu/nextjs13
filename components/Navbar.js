@@ -50,7 +50,7 @@ export default function Navbar() {
                 </Link>
             </li>
             <li className="mr-10">
-                <Link href="/login">
+                <Link href="/js-form">
                 <a className="text-lg font-n px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Login</a>
                 </Link>
             </li>

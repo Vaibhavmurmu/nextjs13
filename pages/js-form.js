@@ -46,7 +46,7 @@ export default function PageWithJSbasedForm() {
       <p className="mt-12 text-2xl bottom-2">
         👏 Welcome to runash<br />Lets being the live streaming journey<br />
       </p>
-      <div className="mt-12 flex max-w-7xl flex-wrap items-center justify-around sm:w-full">
+      <div className="mt-12 grid max-w-7xl grid-wrap items-center justify-around sm:w-full">
       <p className="mt-12 text-2xl bottom-2">Create your account ID</p>
       <form onSubmit={handleSubmit}>
         <label htmlFor="email">email</label>

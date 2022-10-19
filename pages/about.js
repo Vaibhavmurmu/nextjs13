@@ -63,12 +63,8 @@ export default function About() {
                 </p>
             </a>
         </div>
-        <p className="mt-6 text-0xl">
-            Backed by the best open source
-        </p>
-    
-        <hr className="mt-6 w-96 border-1 border-gray-300" />
-        <div className="mt-6 w-50 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600">
+        <div className="mt-6 flex main-h-screen flex-col item-centre justify-centre py-2">
+        <div className="mt-6 w-full rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600">
             <h1 className="text-2xl font-bold ">What we do</h1>
             <p className="mt-4 text-xl w-full text-left">
             We are created new model of live streaming marketplace and environment where retailers can <br />meet to buyers and face to face demonstrate and presentation their products<br />
@@ -77,7 +73,7 @@ export default function About() {
             </Link>
             </p>
         </div>
-        <div className="mt-6 w-50 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600">
+        <div className="mt-6 w-full rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600">
             <h1 className="mt-9 text-2xl font-bold">What we going to make</h1>
             <p className="mt-4 text-xl w-full text-left">
             We are committed to building a live retail streaming hybrid platform for unorganised retailers <br />and new ways to use physical reality experience<br />
@@ -86,7 +82,7 @@ export default function About() {
             </Link>
             </p>
         </div>
-        <div className="mt-6 w-50 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600">
+        <div className="mt-6 w-full rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600">
             <h1 className="mt-9 text-2xl font-bold">Founder story</h1>
             <p className="mt-4 text-xl text-left">
             We are both brothers,our business journey started in 2007 from a small offline retail store, the <br />Journey from the school classroom to the board room<br />
@@ -95,7 +91,7 @@ export default function About() {
             </Link>
             </p>
         </div>
-        <div className="mt-6 w-50 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600">
+        <div className="mt-6 w-full rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600">
             <h1 className="mt-9 text-2xl font-bold">Journey</h1>
             <p className="mt-4 text-xl text-left">
             Journey from a small village in India to Sillicone Valley Y Combinator startup school community <br />member<br />
@@ -104,6 +100,10 @@ export default function About() {
             </Link>
             </p>
         </div>
+        </div>
+        <p className="mt-6 text-0xl">
+            Backed by the best open source MIT Github
+        </p>
         <div className="mt-8 flex max-w-8xl flex-wrap item-centre justify-around sm:w-full bg-amber-50 p-8 rounded">
             <h1 className="text-2xl font-bold">Shape the future of live retail</h1>
             <button className="bg-orange-600 hover:bg-blue-700 text-white font-bold py-4 px-16 rounded mt-12">

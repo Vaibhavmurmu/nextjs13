@@ -168,7 +168,7 @@ export default function Sell() {
         <p className="mt-6">
           Your business and sales experience with earning more benifits.
         </p>
-        <div className="tm-6 flex max-w-8xl flex-wrap items-center justify-around sm:w-full"> 
+        <div className="mt-6 flex max-w-8xl flex-wrap items-center justify-around sm:w-full"> 
           <a
             href="https://nextjs.org/docs"
             className="mt-6 w-96 rounded-xl  p-6 text-left hover:text-blue-600 focus:text-orange-600"

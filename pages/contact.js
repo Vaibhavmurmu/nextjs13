@@ -5,8 +5,8 @@ import Image from 'next/image'
 export default function Contact() {
     return (
         <div className="flex min-h-screen flex-col items-center justify-center py-2">
-            <h1 className="mt-12 text-4xl font-b">
-                RunAsh teams are here to help us
+            <h1 className="mt-12 text-6xl font-b">
+                RunAsh are here to help us
             </h1>
             <p className="mt-6 text-2xl font-n">
                 Get in touch and let us know how we can help you.
@@ -105,7 +105,7 @@ export default function Contact() {
           </a>
 
         </div>
-        <div className="mt-12 -6 bg-gray-50 flex max-w-8xl flex-wrap items-center justify-around sm:w-full">
+        <div className="mt-12 bg-gray-50 flex max-w-8xl flex-wrap items-center justify-around sm:w-full">
         <a
             href="https://nextjs.org/docs"
             className="mt-6 w-96 rounded-xl p-6 text-left focus:text-black shadow-lg divider"

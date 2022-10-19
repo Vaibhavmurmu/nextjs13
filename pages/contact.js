@@ -8,7 +8,7 @@ export default function Contact() {
             <h1 className="mt-12 text-6xl font-b">
                 RunAsh are here to help us
             </h1>
-            <p className="mt-6 text-2xl font-n">
+            <p className="mt-6 text-1xl font-n">
                 Get in touch and let us know how we can help you.
             </p>
         <div className="mt-12 flex max-w-7xl flex-wrap items-center justify-around sm:w-full">
@@ -86,13 +86,13 @@ export default function Contact() {
               Join our helpfullness ecosysytem and accelerate your business with us.
               <br />
                 <Link href="/login">
-                <a className='text-blue-600'><button className="bg-orange-600 hover:bg-black text-center text-white font-medium py-3 px-12 rounded-lg p-3 mt-12">Join Us Community &rarr;</button></a>
+                <a className='text-blue-600'><button className="bg-orange-600 hover:bg-black text-center text-white font-medium py-3 px-12 rounded-lg p-3 mt-12">Join Community &rarr;</button></a>
                 </Link>
             </p>
           </a>
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-centre focus:text-black shadow-lg bg-gray-100"
+            className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-lg bg-gray-100"
           >
             <h3 className="text-2xl font-bold">Docs</h3>
             <p className="mt-4 text-xl">
@@ -148,9 +148,12 @@ export default function Contact() {
         </div>
         <div className="mt-8 flex max-w-8xl flex-wrap item-centre justify-around sm:w-full bg-amber-50 p-8 rounded">
           <h2 className="text-bold">
-            Buil Growing 10x Fast
+            Live streaming for retailing
           </h2>
-          <button className="bg-black text-white hover:bg-white hover:text-black font-n py-1 px-3 rounded mt-0">Subscribe</button>
+          <p className="mt-4 tet-1xl">
+          Liv Broadcast,Record, and On demand
+          </p>
+          <button className="bg-black text-white hover:bg-white hover:text-black font-n py-1 px-3 rounded mt-0">Get Live</button>
         </div>
         </div>
         )

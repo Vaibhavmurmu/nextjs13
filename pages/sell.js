@@ -247,7 +247,7 @@ export default function Sell() {
            Our team personally explains you, how to go live 
           </p>
           <div className="mt-8 flex max-w-8xl flex-wrap item-centre justify-around sm:w-full bg-amber-50 p-8 rounded">
-           <h2 className="text-1xl font-n">
+           <h2 className="text-0xl">
             Get live support 24 x 7 x 365 days.
             </h2>
             <p className="text-centre">

@@ -235,16 +235,16 @@ export default function Sell() {
             The Live Demonstration
             </h2>
           <p className="mt-6">
-           Our team personally explains to you how to go live 
+           Our team personally explains you, how to go live 
           </p>
-          <div className="mt-24 flex max-w-8xl flex-wrap items-centre justify-around sm:-w-full bg-amber-50 p-8 rounded">
+          <div className="mt-8 flex max-w-8xl flex-wrap item-centre justify-around sm:w-full bg-amber-50 p-8 rounded">
            <h2 className="text-1xl font-bold">
-            Get support 24 x 7 x 365 days with CEO.
+            Get live support 24 x 7 x 365 days.
             </h2>
             <p className="text-centre">
-            We belive our helpfullness discipline and culture
+            We belive our helpfullness culture
             </p>
-            <button className="bg-black hover:bg-blue-600 text-white font-bold py-3 px-8 rounded mt-0 text-centre">Connect with us</button>
+            <button className="bg-black hover:bg-blue-600 text-white font-bold py-3 px-8 rounded mt-0 text-centre">Connect Us</button>
           </div>
         </main>
         </div>

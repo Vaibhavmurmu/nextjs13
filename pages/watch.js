@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 export default function Watch() {
     return (
-        <div className="flex min-h-screen flex-col items-center justify-center py-2">
-            <h1 className="text-6xl font-n text-left">
+        <div className="mt-12 flex gap-6 flex-max-w-0xl flex-wrap min-h-screen flex-col items-left justify-center py-2">
+            <h1 className="text-4xl font-n text-left">
                 Live on demand
             </h1>
             <p className="mt-6 text-left">

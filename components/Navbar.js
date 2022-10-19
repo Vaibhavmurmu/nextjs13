@@ -11,7 +11,7 @@ export default function Navbar() {
             </div>
         <div className="flex flex-row items-center justify-between w-full px-6 py-4">
         <div className="flex flex-row items-center">
-            <h1 className="text-2xl font-b">RunAsh</h1>
+            <h1 className="text-4xl font-b">RunAsh</h1>
         </div>
         <div className="flex flex-row item-center space-x-4">
             <ul className="flex flex-row item-center">

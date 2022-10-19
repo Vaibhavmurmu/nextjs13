@@ -13,53 +13,53 @@ export default function Faq() {
             </p>
 
                 <div className="mt-6 w-50 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600">
-                    <h3 className="text-2xl font-bold">What is Live Retail Streaming?</h3>
+                    <h3 className="text-2xl font-bold">What is runash live streaming?</h3>
                     <p className="mt-4 text-xl">
-                        Live Retail Streaming is a platform where retailers can meet to buyers and demonstrate their products.
+                        RunAsh is a live retail streaming platform, where retailers can meet to buyers and demonstrate their products.
                     </p>
                 </div>
                 <div className="mt-6 w-50 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600">
                     <h3 className="text-2xl font-bold">How does it work?</h3>
                     <p className="mt-4 text-xl">
-                        Where retailers can create their own made live streaming store and sell experience to the customers.
+                        Create account, and record or upload yor products,setup prefered date and time,then ready to live.
                     </p>
                 </div>
                 <div className="mt-6 w-50 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600">
                     <h3 className="text-2xl font-bold">How much does it cost?</h3>
                     <p className="mt-4 text-xl">
-                    Where retailers can create their own made live streaming store and sell experience to the customers.
+                    Free tier of cost upon initial use for 6 months then we charge pay as you go pricing,pay for total duration of live inpute.
                     </p>
                 </div>
                 <div className="mt-6 w-50 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600">
-                    <h3 className="text-2xl font-bold">How do I get started?</h3>
+                    <h3 className="text-2xl font-bold">How to get started live straming?</h3>
                     <p className="mt-4 text-xl">
                         <Link href="/register">
                             <a>Register</a>
-                        </Link> Where retailers can create their own made live streaming store and sell experience to the .
+                        </Link> First create a stream, install studio and create go live to open the live page and clicke stream tab.
                     </p>
                  </div>
                  <div className="mt-6 w-50 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600">
-                    <h3 className="text-2xl font-bold">How do I get started?</h3>
+                    <h3 className="text-2xl font-bold">What we do for you?</h3>
                     <p className="mt-4 text-xl">
                         <Link href="/register">
                             <a>Register</a>
-                        </Link> Where retailers can create their own made live streaming store and sell experience to the .
+                        </Link>RunAsh platform is managed yorur live streaming contents that lets you buld interactive real sell experience.
                     </p>
                  </div>
                  <div className="mt-6 w-50 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600">
-                    <h3 className="text-2xl font-bold">How do I get started?</h3>
+                    <h3 className="text-2xl font-bold">How to schedule a live streaming?</h3>
                     <p className="mt-4 text-xl">
                         <Link href="/register">
                             <a>Register</a>
-                        </Link> Where retailers can create their own made live streaming store and sell experience to the .
+                        </Link>Go to your dashbord and setup your prefered date and time then displaying your live products contents.
                     </p>
                  </div>
                     <div className="mt-6 w-50 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600">
-                    <h3 className="text-2xl font-bold">How do I get started?</h3>
+                    <h3 className="text-2xl font-bold">If its your first live stream?</h3>
                     <p className="mt-4 text-xl">
                         <Link href="/register">
                             <a>Register</a>
-                        </Link> Where retailers can create their own made live streaming store and sell experience to the .
+                        </Link>Go to your dashbord and edit your stream stting and preview stream .
                     </p>
                 </div>   
          </div>

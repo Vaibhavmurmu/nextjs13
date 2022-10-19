@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Contact() {
     return (
         <div className="flex min-h-screen flex-col items-center justify-center py-2">
-            <h1 className="text-6xl font-n">
+            <h1 className="mt-12 text-6xl font-n">
                 RunAsh teams are here to help us
             </h1>
             <p className="mt-6 text-2xl font-n">
@@ -14,11 +14,11 @@ export default function Contact() {
         <div className="mt-12 flex max-w-7xl flex-wrap items-center justify-around sm:w-full">
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white"
+            className="mt-6 w-96 rounded-xl border p-6 text-centre focus:text-black shadow-lg bg-gray-100"
           >
             <h3 className="text-2xl font-bold">Help</h3>
             <p className="mt-4 text-xl">
-              Need .
+              How can we help you.
               <br />
                 <Link href="/login">
                 <a className='text-blue-600'><button className="bg-orange-600 hover:bg-black text-white font-medium py-3 px-12 rounded-lg p-3 mt-12">Get Help &rarr;</button></a>
@@ -27,7 +27,7 @@ export default function Contact() {
           </a>
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white"
+            className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-lg shadow-white"
           >
             <h3 className="text-2xl font-bold">Support</h3>
             <p className="mt-4 text-xl">
@@ -40,7 +40,7 @@ export default function Contact() {
           </a>
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white"
+            className="mt-6 w-96 rounded-xl border p-6 text-centre focus:text-black shadow-lg shadow-white"
           >
             <h3 className="text-2xl font-bold">Become a seller</h3>
             <p className="mt-4 text-xl">
@@ -53,7 +53,7 @@ export default function Contact() {
           </a>
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white"
+            className="mt-6 w-96 rounded-xl border p-6 text-centre focus:text-black shadow-lg shadow-white"
           >
             <h3 className="text-2xl font-bold">Become a buyer</h3>
             <p className="mt-4 text-xl">
@@ -66,7 +66,7 @@ export default function Contact() {
           </a>
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white"
+            className="mt-6 w-96 rounded-xl border p-6 text-centre focus:text-black shadow-lg shadow-white"
           >
             <h3 className="text-2xl font-bold">Partner</h3>
             <p className="mt-4 text-xl">
@@ -79,7 +79,7 @@ export default function Contact() {
           </a>
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white"
+            className="mt-6 w-96 rounded-xl border p-6 text-centre focus:text-black shadow-lg shadow-white"
           >
             <h3 className="text-2xl font-bold">Influencer</h3>
             <p className="mt-4 text-xl">
@@ -92,7 +92,7 @@ export default function Contact() {
           </a>
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white"
+            className="mt-6 w-96 rounded-xl border p-6 text-centre focus:text-black shadow-lg shadow-white"
           >
             <h3 className="text-2xl font-bold">Docs</h3>
             <p className="mt-4 text-xl">
@@ -105,7 +105,7 @@ export default function Contact() {
           </a>
 
         </div>
-        <div className="mt-12 flex main-h-screen flex-col item-centre justify-centre py-2">
+        <div className="mt-12 grid grid-floe-col main-h-screen flex-col item-centre justify-centre py-2">
         <a
             href="https://nextjs.org/docs"
             className="mt-6 w-96 rounded-xl p-6 text-left focus:text-black shadow-lg shadow-white"

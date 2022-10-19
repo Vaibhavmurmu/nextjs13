@@ -168,7 +168,7 @@ export default function Sell() {
         <p className="mt-6">
           Your business and sales experience with earning more benifits.
         </p>
-        <div className="mt-6 flex bg-gray-50 max-w-10xl flex-wrap items-center justify-around sm:w-full"> 
+        <div className="mt-6 flex bg-amber-50 max-w-10xl flex-wrap items-center justify-around sm:w-full"> 
           <a
             href="https://nextjs.org/docs"
             className="mt-6 w-96 rounded-xl p-6 text-left"
@@ -212,6 +212,15 @@ export default function Sell() {
             <h3 className="text-2xl font-bold">Private</h3>
             <p className="mt-4 text-xl">
                 Your live streaming is private
+            </p>
+          </a>
+          <a
+            href="https://nextjs.org/docs"
+            className="mt-6 w-96 rounded-xl  p-6 text-left"
+          >
+            <h3 className="text-2xl font-bold">Organic</h3>
+            <p className="mt-4 text-xl">
+                Organic business,product and brand
             </p>
           </a>
           </div>

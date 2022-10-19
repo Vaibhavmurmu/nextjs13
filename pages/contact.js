@@ -6,9 +6,9 @@ export default function Contact() {
     return (
         <div className="flex min-h-screen flex-col items-center justify-center py-2">
             <h1 className="mt-12 text-6xl font-b">
-                RunAsh are here to help us
+                Our team are here to help us
             </h1>
-            <p className="mt-6 text-1xl font-n">
+            <p className="mt-6 text-2xl font-n">
                 Get in touch and let us know how we can help you.
             </p>
         <div className="mt-12 flex max-w-7xl flex-wrap items-center justify-around sm:w-full">
@@ -115,7 +115,7 @@ export default function Contact() {
               Get latest update and lunched for live stream.
               <br />
                 <Link href="/login">
-                <a className='text-blue-600'></a>
+                <a className='text-blue-600'>Connect Us</a>
                 </Link>
             </p>
           </a>
@@ -128,7 +128,7 @@ export default function Contact() {
               For business related support join our influencer program.
               <br />
                 <Link href="/login">
-                <a className='text-blue-600'></a>
+                <a className='text-blue-600'>Join us</a>
                 </Link>
             </p>
           </a>
@@ -138,10 +138,10 @@ export default function Contact() {
           >
             <h3 className="text-2xl font-bold">Twitter</h3>
             <p className="mt-4 text-xl">
-              Get RunAsh new,company information, and media resource @runash_.
+              Get new updates,company information, and media resource
               <br />
                 <Link href="/login">
-                <a className='text-blue-600'></a>
+                <a className='text-blue-600'>@runash_</a>
                 </Link>
             </p>
           </a>
@@ -150,9 +150,6 @@ export default function Contact() {
           <h2 className="text-bold">
             Live streaming for retailing
           </h2>
-          <p className="mt-4 tet-1xl">
-          Liv Broadcast,Record, and On demand
-          </p>
           <button className="bg-black text-white hover:bg-white hover:text-black font-n py-1 px-3 rounded mt-0">Get Live</button>
         </div>
         </div>

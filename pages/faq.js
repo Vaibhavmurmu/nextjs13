@@ -12,7 +12,7 @@ export default function Faq() {
                 Frequently Asked Questions
             </p>
 
-                <div className="mt-6 w-50 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600">
+                <div className="mt-6 w-full rounded-xl border p-6 text-left item-centre justify-centre hover:text-blue-600 focus:text-blue-600">
                     <h3 className="text-2xl font-bold">What is runash live streaming?</h3>
                     <p className="mt-4 text-xl">
                         RunAsh is a live retail streaming platform, where retailers can meet to buyers and demonstrate their products.

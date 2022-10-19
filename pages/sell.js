@@ -231,13 +231,13 @@ export default function Sell() {
            Get started in few steps and go live streaming
           </p>
           <div className="mt-8 flex max-w-8xl flex-wrap items-center justify-around sm:w-full bg-amber-50 p-8 rounded">
-          <p className='mt-0 mr-2 w-25 rounded-xl p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">1</button>Create your account
+          <p className='mt-0 mr-2 w-25 rounded-xl p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">1</button> Create your account
           </p>
-          <p className='mt-0 mr-2 w-25 rounded-xl p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">2</button>Record and upload content
+          <p className='mt-0 mr-2 w-25 rounded-xl p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">2</button> Record and upload content
           </p>
-          <p className='mt-0 mr-2 w-25 rounded-xl p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">3</button>Set prefered date and time
+          <p className='mt-0 mr-2 w-25 rounded-xl p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">3</button> Set prefered date and time
           </p>
-          <p className='mt-0 mr-2 w-25 rounded-xl p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">4</button>Lets ready to go live
+          <p className='mt-0 mr-2 w-25 rounded-xl p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">4</button> Lets ready to go live
           </p>
           </div>
           <h2 className='mt-24 text-3xl font-b'>
@@ -247,13 +247,13 @@ export default function Sell() {
            Our team personally explains you, how to go live 
           </p>
           <div className="mt-8 flex max-w-8xl flex-wrap item-centre justify-around sm:w-full bg-amber-50 p-8 rounded">
-           <h2 className="text-1xl font-bold">
+           <h2 className="text-1xl font-n">
             Get live support 24 x 7 x 365 days.
             </h2>
             <p className="text-centre">
             We belive our helpfullness culture
             </p>
-            <button className="bg-black hover:bg-blue-600 text-white font-bold py-3 px-8 rounded mt-0 text-centre">Connect Us</button>
+            <button className="bg-black hover:bg-blue-600 text-white font-b py-3 px-8 rounded mt-0 text-centre">Connect Us</button>
           </div>
         </main>
         </div>

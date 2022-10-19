@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export default function Watch() {
     return (
-        <div className="mt-12 flex gap-6 flex-max-w-0xl flex-wrap min-h-screen flex-col items-left justify-center py-2">
+        <div className="mt-12 flex gap-6 flex-max-w-0xl flex-wrap min-h-screen flex-col items-center justify-center py-2">
             <h1 className="text-4xl font-n text-left">
                 Live on demand
             </h1>

@@ -49,8 +49,8 @@ export default function PageWithJSbasedForm() {
       <div className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-blue-600">
       <p className="mt-12 text-2xl bottom-2">Create your account ID</p>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="email">email</label>
-        <input type="text" id="email" name="email" required />
+        <label className='' htmlFor="email">email</label>
+        <input className="" type="text" id="email" name="email" required />
         <label htmlFor="fast">Fast Name</label>
         <input type="text" id="first" name="first" required />
         <label htmlFor="last">Last Name</label>

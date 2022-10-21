@@ -15,17 +15,17 @@ export default function Navbar() {
         </div>
         <div className="flex flex-row item-center space-x-4">
             <ul className="flex flex-row item-center">
-                <li className="mr-10">
+                <li className="mr-12">
                     <Link href="/live">
                         <a className="text-lg font-n px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Live</a>
                     </Link>
                 </li>
-                <li className="mr-10">
+                <li className="mr-12">
                     <Link href="/sell">
                         <a className="text-lg font-n px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Sell</a>
                     </Link>
                 </li>
-                <li className="mr-10">
+                <li className="mr-12">
                     <Link href="/buy">
                         <a className="text-lg font-n px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900 ">Buy</a>
                     </Link>
@@ -34,17 +34,17 @@ export default function Navbar() {
         </div>
         <div className="flex flex-row items-right">
             <ul className="flex flex-row items-right">
-            <li className="mr-10">
+            <li className="mr-12">
                 <Link href="/watch">
                 <a className="text-lg font-n px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Watch</a>
                 </Link>
             </li>
-            <li className="mr-10">
+            <li className="mr-12">
                 <Link href="/js-form">
                 <a className="text-lg font-n px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Login</a>
                 </Link>
             </li>
-            <li className="mr-10">
+            <li className="mr-12">
                 <Link href="/signup">
                 <a className="text-lg font-n px-2 py-2"><button className="bg-orange-600 text-white hover:text-white font-n py-1 px-2 rounded mt-0">Sign Up</button></a>
                 </Link>

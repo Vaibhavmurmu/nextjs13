@@ -9,12 +9,12 @@ export default function Navbar() {
                     <p className="text-1xl font-normal">Welcome to RunAsh &rarr;</p>
                 </text>
             </div>
-        <div className="flex flex-row items-center justify-center w-full border-t h-4 px-6 py-4">
+        <div className="flex flex-row items-center justify-between w-full h-4 px-20 py-4">
         <div className="flex flex-row items-center">
-            <h1 className="text-2xl font-b">RunAsh</h1>
+            <h1 className="text-3xl font-b">RunAsh</h1>
         </div>
         <div className="flex flex-row item-center space-x-4">
-            <ul className="mr-12 flex flex-row item-center">
+            <ul className="flex flex-row item-center">
                 <li className="mr-12">
                     <Link href="/live">
                         <a className="text-lg font-n px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Live</a>
@@ -46,7 +46,7 @@ export default function Navbar() {
             </li>
             <li className="mr-12">
                 <Link href="/signup">
-                <a className="text-lg font-n px-2 py-2"><button className="bg-orange-600 text-white hover:text-white font-n py-1 px-2 rounded mt-0">Sign Up</button></a>
+                <a className="text-lg font-n px-3 py-2"><button className="bg-orange-600 text-white hover:bg-white hover:text-black font-n py-1 px-3 rounded mt-0">Sign Up</button></a>
                 </Link>
             </li>
             </ul>

@@ -247,11 +247,11 @@ export default function Index() {
           <button className="mt-12 bg-blue-600 text-white hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded">feedback</button>
         
 
-        <div className="mt-8 flex max-w-8xl flex-wrap item-centre justify-around sm:w-full bg-amber-50 p-8 rounded">
+        <div className="mt-8 flex max-w-8xl flex-wrap item-centre justify-around bg-amber-50 sm:w-full bg- p-8 rounded">
           <h2 className="text-bold">
             Get live updates
           </h2>
-          <input className="placeholder-show:border-gry-500 text-centre p-4..." placeholder="email address"></input><button className="bg-black text-white hover:bg-white hover:text-black font-n py-1 px-3 rounded mt-0">Subscribe</button>
+          <input className="placeholder-show:border text-centre p-4..." placeholder="email address"></input><button className="bg-black text-white hover:bg-white hover:text-black font-n py-1 px-3 rounded mt-0">Subscribe</button>
         </div>
       </main>
     </div>

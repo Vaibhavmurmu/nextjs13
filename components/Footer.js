@@ -40,7 +40,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    © 2022 RunAsh{' '} All rights reserved
+                    © 2022 RunAsh.{' '} All rights reserved
                 </a>
             </div>
         </div>

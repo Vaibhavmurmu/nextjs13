@@ -37,7 +37,7 @@ export default function Navbar() {
                 </li>
             </ul>
         </div>
-        <div className="flex flex-row items-right">
+        <div className="flex flex-row items-right space-x-4">
             <ul className="flex flex-row items-right">
             <li className="mr-10">
                 <Link href="/support">

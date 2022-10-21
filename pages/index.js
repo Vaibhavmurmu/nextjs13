@@ -26,7 +26,7 @@ export default function Index() {
         <p className="mt-12 text-2xl bottom-2">
           Where the retailers build own made live streaming store.
         </p>
-        <div className="flex gap-6 mt-12 flex max-w-0xl flex-wrap items-center justify-around">
+        <div className="flex gap-6 mt-12 max-w-0xl flex-wrap items-center justify-around">
         <button className="bg-orange-600 hover:bg-black text-white font-medium py-3 px-12 rounded-lg p-3 mt-12">
           <Link href="/register">
             <a>Go live stream</a>
@@ -226,7 +226,7 @@ export default function Index() {
         </div>
       
 
-        <div className="flex gap-6 mt-12 flex max-w-1xl flex-wrap items-center justify-around">
+        <div className="flex gap-6 mt-12 max-w-1xl flex-wrap items-center justify-around">
         <button className="bg-black hover:bg-white text-white font-medium hover:text-black py-3 px-12 rounded-lg p-3 mt-12">
           <Link href="/login">
             <a>Go live stream</a>
@@ -250,7 +250,7 @@ export default function Index() {
           <button className="bg-white-600 text-gray-400 hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">😃</button>
           <button className="bg-white-600 text-gray-400 hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">🤩</button>
          </div>
-          <button className="mt-12 bg-blue-600 text-white hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">feedback</button>
+          <button className="mt-12 bg-blue-600 text-white hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded">feedback</button>
         
 
         <div className="mt-8 flex max-w-8xl flex-wrap item-centre justify-around sm:w-full bg-amber-50 p-8 rounded">

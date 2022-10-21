@@ -13,9 +13,9 @@ export default function Index() {
 
       <main className="flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
         <card className="mt-12 w-100 rounded-xl border p-3 text-left hover:text-blue-600 focus:text-blue-600">
-          <text className="text-1xl font-normal mt-2">
+          <badage className="text-1xl font-normal mt-2">
             <p className="text-1xl font-normal"><button className='bg-blue-600 text-white font-n py-1 px-3 rounded mt-0'>New</button> Introducing next generation and future of retail &rarr;</p>
-          </text>
+          </badage>
         </card>
         <h1 className="mt-12 text-6xl font-bold">
           Live retail streaming{' '}<br />

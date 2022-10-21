@@ -11,7 +11,7 @@ export default function Navbar() {
             </div>
         <div className="flex flex-row items-center justify-between w-full px-6 py-4">
         <div className="flex flex-row items-center">
-            <h1 className="text-4xl font-b">RunAsh</h1>
+            <h1 className="text-3xl font-b">RunAsh</h1>
         </div>
         <div className="flex flex-row item-center space-x-4">
             <ul className="flex flex-row item-center">
@@ -30,14 +30,9 @@ export default function Navbar() {
                         <a className="text-lg font-n px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900 ">Buy</a>
                     </Link>
                 </li>
-                <li className="mr-10">
-                    <Link href="/watch">
-                        <a className="text-lg font-n px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Watch</a>
-                    </Link>
-                </li>
             </ul>
         </div>
-        <div className="flex flex-row items-right space-x-4 px-6 py-4">
+        <div className="flex flex-row items-right">
             <ul className="flex flex-row items-right">
             <li className="mr-10">
                 <Link href="/support">

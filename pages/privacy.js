@@ -7,7 +7,7 @@ export default function Privacy() {
             <artical className="mt-12 prose li:prose-1xl">
                 <h1>Privacy Policy</h1>
                 <p>Effective date: September 01, 2021</p>
-                <p>RunAsh ("us", "we", or "our") operates the RunAsh website (the "Service").</p>
+                <p>RunAsh (us, we, or our) operates the RunAsh website (the Service).</p>
                 <p>This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. Our Privacy Policy for RunAsh is created with the help of the <a href="https://www.freeprivacypolicy.com/free-privacy-policy-generator.php">Free Privacy Policy Generator</a>.</p>
                 <p>We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from RunAsh</p>
                 <h2>Definitions</h2>

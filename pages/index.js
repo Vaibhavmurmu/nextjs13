@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Head from 'next/head'
+import Image from "next/image"
 
 
 export default function Index() {
@@ -219,13 +220,6 @@ export default function Index() {
                   Lets building your own made sell and buy expercence.
                 </p>
         </div>
-
-        <div className="mt-8 grid grid-flow-col bg-repeat">
-          <img className="mr-6 mt-6 bg-repeat-x bg-centre" src="/vercel.svg" alt="" width="80" height="60"></img><img className="mr-6 mt-6 bg-repeat-x bg-centre" src="/vercel.svg" alt="" width="80" height="60"></img>
-          <img className="mr-6 mt-6 bg-repeat-x bg-centre" src="/vercel.svg" alt="" width="80" height="60"></img><img className="mr-6 mt-6 bg-repeat-x bg-centre" src="/vercel.svg" alt="" width="80" height="60"></img>
-        </div>
-      
-
         <div className="flex gap-6 mt-12 max-w-1xl flex-wrap items-center justify-around">
         <button className="bg-black hover:bg-white text-white font-medium hover:text-black py-3 px-12 rounded-lg p-3 mt-12">
           <Link href="/login">

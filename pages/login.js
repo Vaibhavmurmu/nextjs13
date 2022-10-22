@@ -1,13 +1,24 @@
-import Link from 'next/link'
-import Head from 'next/head'
-import Image from 'next/image'
+import React from "react"
+import { useSession, signIn, signOut } from "next-auth/client"
 
 export default function Login() {
-    return (
-        <div className="flex min-h-screen flex-col items-center justify-center py-2">
-            <h1 className="text-6xl font-n">
-                Login
-            </h1>
-        </div>
-        )
+    const { data: session } = useSession()
+    console.log(session)
+
+        if (session) {
+            return (
+              <>   
+                <p>Welcome, {session.user.name}</p>
+                <img src={session.user.image} alt="" styles={{ width: "75", borderRadius: "50px"}} />
+                Signed in as {session.user.email} <br />
+                <button onClick={() => signOut()}>Sign out</button>
+              </>
+            )
+          }
+          return (
+            <>
+              Not signed in <br />
+              <button onClick={() => signIn()}>Sign in</button>
+            </>
+          )
     }

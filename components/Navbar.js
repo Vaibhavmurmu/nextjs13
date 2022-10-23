@@ -40,12 +40,12 @@ export default function Navbar() {
                 </Link>
             </li>
             <li className="mr-12">
-                <Link href="/js-form">
+                <Link href="/login">
                 <a className="text-lg font-n px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Login</a>
                 </Link>
             </li>
             <li className="mr-12">
-                <Link href="/signup">
+                <Link href="/js-form">
                 <a className="text-lg font-n px-3 py-2"><button className="bg-orange-600 text-white hover:bg-white hover:text-black font-n py-1 px-3 rounded mt-0">Sign Up</button></a>
                 </Link>
             </li>

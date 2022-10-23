@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { BarsIcon } from '@heroicons/react/24/solid'
+import { Bars-2 } from '@heroicons/react/solid'
 
 export default function Navbar() {
     return (
@@ -52,7 +52,7 @@ export default function Navbar() {
             </li>
             </ul>
         <div>
-          <BarsIcon size={20} />
+          <Bars-2 size={20} />
         </div>
         <div className="fixed left-0 top-0 w-[60] h-full border-r border-r-gray-900 bg-gray-500">
             <h1 className=" w-full text-3xl font-b text-black m-4">RunAsh</h1>

@@ -53,7 +53,7 @@ export default function Navbar() {
             </ul>
           <Bars2Icon className="p-4 mr-12"/>
         </div>
-        <div className='fixed left-0 top-0 w-full h-full border-r border-r-gray-900 bg-white ease-in-out duration-500'>
+        <div className='fixed left-0 top-0 w-[60] h-full border-r border-r-gray-900 bg-gray-100'>
         <h1 className="w-full text-3xl font-b text-black m-4">RunAsh</h1>
          <ul className="pt-24 uppercase p-4">
            <li className="p-4 border-b border-gray-600">Login</li>

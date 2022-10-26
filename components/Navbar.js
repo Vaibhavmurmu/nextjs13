@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import React {useState} from "react"
-import { Bars2Icon, xMark } from '@heroicons/react/24/solid'
+import { Bars2Icon, XMarkIcon } from '@heroicons/react/24/solid'
 
 export default function Navbar() {
     const [nav, setNav] = useState(false)
@@ -57,7 +57,7 @@ export default function Navbar() {
             </li>
             </ul>
         <div onClick= {handleNav}>
-          {!nav ? <xMark size={20}/> : <Bars2Icon size={20} className="h-6 w-6 text-black"/>}
+          {!nav ? <XMarkIcon size={20}/> : <Bars2Icon size={20} className="h-6 w-6 text-black"/>}
           
         </div>
         <div className="fixed left-0 top-0 w-[60] h-full border-r border-r-gray-900 bg-gray-500">

@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { BeakerIcon } from '@heroicons/react/24/solid'
+import { Bars-2Icon } from '@heroicons/react/24/solid'
 
 export default function Navbar() {
     return (
@@ -34,7 +34,7 @@ export default function Navbar() {
             </ul>
         </div>
         <div className="flex flex-row items-right">
-            <ul className="flex flex-row items-right">
+            <ul className="flex hidden flex-row items-right">
             <li className="p-4 mr-12">
                 <Link href="/watch">
                 <a className="text-lg font-n px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Watch</a>
@@ -52,7 +52,7 @@ export default function Navbar() {
             </li>
             </ul>
         <div>
-          <BeakerIcon className="h-6 w-6 text-blue-500"/>
+          <Bars-2Icon className="h-6 w-6 text-blue-500"/>
         </div>
         <div className="fixed left-0 top-0 w-[60] h-full border-r border-r-gray-900 bg-gray-500">
             <h1 className=" w-full text-3xl font-b text-black m-4">RunAsh</h1>

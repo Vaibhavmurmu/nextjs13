@@ -1,8 +1,13 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Bars2Icon } from '@heroicons/react/24/solid'
+import React {useState} from "react"
+import { Bars2Icon, XMark } from '@heroicons/react/24/solid'
 
 export default function Navbar() {
+    const [nav, setNav] = useState(false)
+    
+    cost handleNav = () =>
+       setNav(!nav)
     return (
         <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
             <div className="flex h-24 w-full items-center justify-between mx-auto px-4">
@@ -51,8 +56,9 @@ export default function Navbar() {
                 </Link>
             </li>
             </ul>
-        <div>
-          <Bars2Icon className="h-6 w-6 text-blue-500"/>
+        <div onClick= {handleNav}>
+          {!nav ? <XMark size={20}/> : <Bars2Icon size={20} className="h-6 w-6 text-black"/>}
+          
         </div>
         <div className="fixed left-0 top-0 w-[60] h-full border-r border-r-gray-900 bg-gray-500">
             <h1 className=" w-full text-3xl font-b text-black m-4">RunAsh</h1>

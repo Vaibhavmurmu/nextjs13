@@ -1,12 +1,12 @@
 import Link from "next/link"
 import Image from "next/image"
-import React { useState } from "react"
-import { Bars2Icon, XMarkIcon } from '@heroicons/react/24/solid'
+import useState from "next/useState"
+import { Bars2Icon, XMarkIcon} from '@heroicons/react/24/solid'
 
 export default function Navbar() {
     const [nav, setNav] = useState(false)
     
-    cost handleNav = () => {
+    const handleNav = () => {
        setNav(!nav)
     return (
         <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
@@ -72,3 +72,4 @@ export default function Navbar() {
         </main>
     );
     }
+}

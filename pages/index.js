@@ -212,9 +212,9 @@ export default function Index() {
           </a>
         </div>
         <p className="mt-8 text-0xl text-center text-base text-black hover:text-black">
-          Explore more features and real selling and buying experience on runash
+          Explore more features and experience on runash
         </p>
-          <div className='mt-8 text-xl'>
+          <div className='mt-12 text-xl'>
                 <h4 className="text-1xl text-orange-600 font-bold">Begin your live streaming journey ✨</h4>
                 <p className="mt-4 text-centre text-base text-black text-1xl bottom-2">
                   Lets building your own made sell and buy expercence.
@@ -251,7 +251,7 @@ export default function Index() {
           <h2 className="text-bold">
             Get live updates
           </h2>
-          <input className="placeholder-show:border text-centre p-4..." placeholder="email address"></input><button className="bg-black text-white hover:bg-white hover:text-black font-n py-1 px-3 rounded mt-0">Subscribe</button>
+          <input className="mt-2 placeholder-show:border text-centre p-4..." placeholder="email address"></input><button className="mt-2 bg-black text-white hover:bg-white hover:text-black font-n py-1 px-3 rounded mt-0">Subscribe</button>
         </div>
       </main>
     </div>

@@ -6,7 +6,7 @@ import { Bars2Icon, XMarkIcon } from '@heroicons/react/24/solid'
 export default function Navbar() {
     const [nav, setNav] = useState(false)
     
-    cost handleNav = () =>
+    cost handleNav = () => {
        setNav(!nav)
     return (
         <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">

@@ -4,7 +4,7 @@ import { Bars2Icon, XMarkIcon} from '@heroicons/react/24/solid'
 
 export default function Navbar() {
     return (
-        <main className="flex hidden w-full flex-1 flex-col items-center justify-center px-20 text-center">
+        <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
             <div className="flex h-24 w-full items-center justify-between mx-auto px-4">
                 <text className="text-1xl font-normal text-black mt-1 w-60 h-6">
                     <p className="text-1xl font-normal">Welcome to RunAsh &rarr;</p>
@@ -54,7 +54,7 @@ export default function Navbar() {
           
         </div>
         <div className='fixed left-0 top-0 w-60 h-full border-r border-r-gray-900 bg-gray-500 ease-in-out duration-500 fixed-left-full'>
-
+        <Bars2Icon />
         <h1 className="w-full text-3xl font-b text-black m-4">RunAsh</h1>
          <ul className="pt-24 uppercase p-4">
            <li className="p-4 border-b border-gray-600">Dashboard</li>

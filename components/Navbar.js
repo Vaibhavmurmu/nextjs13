@@ -51,7 +51,6 @@ export default function Navbar() {
                 </Link>
             </li>
             </ul>
-          <Bars2Icon className="p-4 mr-12"/>
         </div>
         </div>
     </main>

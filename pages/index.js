@@ -214,13 +214,13 @@ export default function Index() {
         <p className="mt-8 text-0xl text-center text-base text-black hover:text-black">
           Explore more features and experience on runash
         </p>
-          <div className='mt-18 text-xl'>
+          <div className='mt-16 text-xl'>
                 <h4 className="text-1xl text-orange-600 font-bold">Begin your live streaming journey ✨</h4>
                 <p className="mt-4 text-centre text-base text-black text-1xl bottom-2">
                   Lets building your own made sell and buy expercence.
                 </p>
         </div>
-        <div className="flex gap-4 mt-4 max-w-1xl flex-wrap items-center justify-around">
+        <div className="flex gap-2 mt-2 max-w-1xl flex-wrap items-center justify-around">
         <button className="bg-black hover:bg-white text-white font-medium hover:text-black py-3 px-12 rounded-lg p-3 mt-12">
           <Link href="/login">
             <a>Get Started</a>
@@ -247,11 +247,11 @@ export default function Index() {
           <button className="mt-12 bg-blue-600 text-white hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded">feedback</button>
         
 
-        <div className="mt-8 flex max-w-full flex-wrap item-centre justify-around bg-gray-50 md:w-full p-8 rounded">
+        <div className="mt-8 flex max-w-full flex-wrap item-centre justify-around bg-gray-50 sm:w-full p-8 rounded">
           <h2 className="mt-2 text-bold">
-            Get live updates
+            Get live stream updates
           </h2>
-          <input className="focus:ring-2 focus:ring-blue-500 focus:outline-none appearance-none w-48 text-sm leading-6 text-slate-900 placeholder-slate-400 rounded-md py-2 pl-10 ring-1 ring-slate-200 shadow-sm" type="text" aria-label="Filter projects" placeholder="Filter projects..."></input>
+          <input className="focus:ring-2 focus:ring-blue-500 focus:outline-none appearance-none w-48 text-sm leading-6 text-slate-900 placeholder-slate-400 rounded-md py-2 pl-10 ring-1 ring-slate-200 shadow-sm" type="text" aria-label="Email address" placeholder="Email address..."></input>
           <button className="mt-2 bg-black text-white hover:bg-white hover:text-black font-n py-1 px-3 rounded mt-0">Subscribe</button>
         </div>
       </main>

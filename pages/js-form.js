@@ -37,29 +37,36 @@ export default function PageWithJSbasedForm() {
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
     <main className="flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
     
-      <h1 className="mt-12 text-6xl font-bold">
+      <h1 className="mt-12 text-2xl font-bold">
         <Link href="/">
           <a>RunAsh</a>
         </Link>{' '}
       </h1>
       
-      <p className="mt-12 text-2xl bottom-2">
+      <p className="mt-12 text-1xl bottom-2">
         👏 Welcome to runash<br />Lets being the live streaming journey<br />
       </p>
-      <div className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-blue-600">
-      <p className="mt-12 text-2xl bottom-2">Create your account ID</p>
+      <div className="mt-8 max-w-lg grid grid-cols-1 gap-6 rounded-xl border p-6 text-center focus:text-blue-600">
+      <p className="mt-12 text-2xl bottom-2">Create your account</p>
       <form onSubmit={handleSubmit}>
-        <label className='' htmlFor="email">email</label>
-        <input className="" type="text" id="email" name="email" required />
-        <label htmlFor="fast">Fast Name</label>
-        <input type="text" id="first" name="first" required />
-        <label htmlFor="last">Last Name</label>
-        <input type="text" id="last" name="last" required />
-        <label htmlFor="Phone number">Phone number</label>
-        <input type="text" id="Phone number" name="Optional" required />
-        <label htmlFor="password">Password</label>
-        <input type="text" id="password" name="password" required />
-        <button type="sign up">Sign Up</button>
+        <label className='block' htmlFor="email"></label>
+        <span className="text-gray-700">email</span>
+        <input className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" type="text" id="email" name="email" required />
+
+        <label  className="mt-2 w-96 rounded-xl p-6 text-left" htmlFor="fast"></label>
+        <span className="text-gray-700">Full name</span>
+        <input className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" type="text" id="first" name="first" required />
+
+        <label className="mt-2 w-96 rounded-xl p-6 text-left " htmlFor="last">Last Name</label>
+        <input className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" type="text" id="last" name="last" required />
+
+        <label className="mt-2 w-96 rounded-xl p-6 text-left" htmlFor="Phone number">Phone number</label>
+        <input className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" type="text" id="Phone number" name="Optional" required />
+
+        <label className="" htmlFor="password">Password</label>
+        <input className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" type="text" id="password" name="password" required />
+
+        <button className="" type="sign up">Sign Up</button>
       </form>
       
       <p className="mt-12 text-0xl bottom-2">
@@ -68,25 +75,6 @@ export default function PageWithJSbasedForm() {
      </div>
     </main>
     <p className="mt-12 text-0xl bottom-2">By creating an account,you agree to terms of services</p>
-     <div className="flex flex-row item-center space-x-4">
-     <ul className="flex flex-row item-center">
-       <li className="mt-10">
-         <Link href='/term'>
-            <a>Terms</a>
-         </Link>
-       </li>
-       <li className="mt-10">
-         <Link href='/privacy'>
-            <a>Privacy</a>
-         </Link>
-       </li>
-       <li className="mt-10">
-         <Link href='/security'>
-           <a>Security</a>
-         </Link>
-       </li>
-      </ul>
-     </div>
      </div>
   )
 }

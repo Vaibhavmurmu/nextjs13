@@ -17,16 +17,16 @@ export default function Sell() {
           </text>
           </card> 
         <h1 className="mt-12 text-6xl font-bold">
-          Build your own made{' '}<br /> 
+          Build your own live{' '}<br /> 
           <a className="text-orange-600" href="https://nextjs.org">
-           live streaming.
+           streaming.
           </a>
         </h1>
 
         <p className="mt-12 text-2xl bottom-2">
-        Give your store a real selling experience on a complete real digitization.
+        Give your store a real selling experience on a complete digitization.
         </p>
-        <div className="mt-10 flex gap-4">
+        <div className="flex gap-6 mt-6 max-w-0xl flex-wrap items-center justify-around">
         <button className="bg-orange-600 hover:bg-green-600 text-white font-bold py-3 px-8 rounded mt-12">
           <Link href="/login">
             <a>Start building</a>
@@ -168,10 +168,10 @@ export default function Sell() {
         <p className="mt-6">
           Your business and sales experience with earning more benifits.
         </p>
-        <div className="mt-6 flex bg-amber-50 max-w-10xl flex-wrap items-center justify-around sm:w-full"> 
+            <div className="mt-6 flex max-w-7xl flex-wrap items-center justify-around sm:w-full">
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl p-6 text-left"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">1st payment</h3>
             <p className="mt-4 text-xl">
@@ -180,7 +180,7 @@ export default function Sell() {
           </a>
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl  p-6 text-left"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Trusted</h3>
             <p className="mt-4 text-xl">
@@ -189,7 +189,7 @@ export default function Sell() {
           </a>
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl  p-6 text-left"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Secure</h3>
             <p className="mt-4 text-xl">
@@ -198,7 +198,7 @@ export default function Sell() {
           </a>
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl  p-6 text-left"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Verified</h3>
             <p className="mt-4 text-xl">
@@ -207,7 +207,7 @@ export default function Sell() {
           </a>
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl  p-6 text-left"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Private</h3>
             <p className="mt-4 text-xl">
@@ -216,7 +216,7 @@ export default function Sell() {
           </a>
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl  p-6 text-left"
+            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
           >
             <h3 className="text-2xl font-bold">Organic</h3>
             <p className="mt-4 text-xl">
@@ -230,14 +230,14 @@ export default function Sell() {
           <p className="mt-6">
            Get started in few steps and go live streaming
           </p>
-          <div className="mt-8 flex max-w-8xl flex-wrap items-center justify-around sm:w-full bg-amber-50 p-8 rounded">
-          <p className='mt-0 mr-2 w-25 rounded-xl p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">1</button> Create your account
+          <div className="mt-8 flex  max-w-10xl flex-wrap items-center justify-around sm:w-full">
+          <p className='mt-6 w-96 rounded-xl border p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">1</button> Create your live account
           </p>
-          <p className='mt-0 mr-2 w-25 rounded-xl p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">2</button> Record and upload content
+          <p className='mt-6 w-96 rounded-xl border p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">2</button> Record and upload content
           </p>
-          <p className='mt-0 mr-2 w-25 rounded-xl p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">3</button> Set prefered date and time
+          <p className='mt-6 w-96 rounded-xl border p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">3</button> Set prefered date and time
           </p>
-          <p className='mt-0 mr-2 w-25 rounded-xl p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">4</button> Lets ready to go live
+          <p className='mt-6 w-96 rounded-xl border p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">4</button> Get ready for live-stream
           </p>
           </div>
           <h2 className='mt-24 text-3xl font-b'>
@@ -246,15 +246,13 @@ export default function Sell() {
           <p className="mt-6">
            Our team personally explains you, how to go live 
           </p>
-          <div className="mt-8 flex max-w-8xl flex-wrap item-centre justify-around sm:w-full bg-amber-50 p-8 rounded">
-           <h2 className="text-0xl">
-            Get live support 24 x 7 x 365 days.
-            </h2>
-            <p className="text-centre">
-            We belive our helpfullness culture
-            </p>
-            <button className="bg-black hover:bg-blue-600 text-white font-b py-3 px-8 rounded mt-0 text-centre">Connect Us</button>
-          </div>
+          <div className="mt-8 flex max-w-full flex-wrap item-centre justify-around bg-gray-50 sm:w-full p-8 rounded">
+          <h2 className="mt-2 text-bold">
+            Get live stream updates
+          </h2>
+          <input className="mt-2 focus:ring-2 focus:ring-blue-500 focus:outline-none appearance-none w-48 text-sm leading-6 text-slate-900 placeholder-slate-400 rounded-md py-2 pl-10 ring-1 ring-slate-200 shadow-sm" type="text" aria-label="Email address" placeholder="Email address..."></input>
+          <button className="mt-2 bg-black text-white hover:bg-white hover:text-black font-n py-1 px-3 rounded">Subscribe</button>
+        </div>
         </main>
         </div>
         )

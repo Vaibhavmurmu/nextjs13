@@ -21,16 +21,16 @@ export default function Sell() {
         Watch previous live streams and get notified when we go live again.
         </p>
         <div className="flex gap-6 mt-2 max-w-0xl flex-wrap items-left justify-around">
-        <label class="grid">
-                <span className="text-black text-left">Categeries</span>
-                <input className="grid w-full mt-1 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" type="text" aria-label="Search" placeholder="Search..."></input>
+        <label class="flex gap-6 mt-2 max-w-0xl flex-wrap item-left justify-around">
+                <span className="text-black text-left text-b">Categeries</span>
+                <input className="flex w-full mt-1 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" type="text" aria-label="Search" placeholder="Search..."></input>
               </label>
             
             </div>
             <div className="flex gap-6 mt-2 max-w-0xl flex-wrap items-center justify-around">
-            <label className="grid">
+            <label className="flex gap-6 mt-2 max-w-0xl flex-wrap item-center justify-around">
                 <span className="text-gray-700">All categeries</span>
-                <select className="grid w-full mt-1 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+                <select className="flex w-full mt-1 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
                   <option>Select categeries</option>
                   <option>Fruit</option>
                   <option>Dairy food</option>

@@ -4,16 +4,16 @@ import { Bars2Icon, XMarkIcon} from '@heroicons/react/24/solid'
 
 export default function Navbar() {
     return (
-        <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-            <div className="flex h-24 w-full items-center justify-between mx-auto px-4">
-                <text className="text-1xl font-normal text-black mt-1 w-60 h-6">
-                    <p className="text-1xl font-normal">Welcome to RunAsh &rarr;</p>
-                </text>
-            </div>
-        <div className="flex flex-row items-center justify-between w-full h-4 px-20 py-4">
+        <main className="flex w-full flex-1 flex-col items-center justify-center px-21 text-center">
+            <div className="flex flex-row items-center backdrop-grayscale-0 bg-black text-white justify-between w-full h-4 px-20 py-8">
+             <p className="text-1xl font-normal text-white mt-1 w-60 h-6 px-22">
+                Welcome to RunAsh &rarr; 
+                </p>
+           </div>
+        <div className="flex fixed flex-row items-center bg-white border-inherit shadow-lg justify-between w-full h-4 px-20 py-12">
         <div className="flex flex-row items-center">
             <h1 className="text-3xl font-b">RunAsh</h1>
-        </div>
+        </div> 
         <div className="flex flex-row item-center space-x-4">
             <ul className="flex flex-row item-center">
                 <li className="p-4 mr-12">

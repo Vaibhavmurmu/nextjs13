@@ -165,7 +165,7 @@ export default function Sell() {
         <h2 className='mt-24 text-2xl font-normal'>
             Unique advantage for live sell
         </h2>
-        <p className="mt-6">
+        <p className="mt-6 text-xl">
           Your business and sales experience with earning more benifits.
         </p>
             <div className="mt-6 flex max-w-7xl flex-wrap items-center justify-around sm:w-full">
@@ -227,7 +227,7 @@ export default function Sell() {
           <h2 className='mt-12 text-3xl font-b'>
             How it works
           </h2>
-          <p className="mt-6">
+          <p className="mt-6 text-xl">
            Get started in few steps and go live streaming
           </p>
           <div className="mt-8 flex  max-w-10xl flex-wrap items-center justify-around sm:w-full">
@@ -241,9 +241,9 @@ export default function Sell() {
           </p>
           </div>
           <h2 className='mt-24 text-3xl font-b'>
-            The Live Demonstration
+            Live Demonstration
             </h2>
-          <p className="mt-6">
+          <p className="mt-6 text-xl">
            Our team personally explains you, how to go live 
           </p>
           <div className="mt-8 flex max-w-full flex-wrap item-centre justify-around bg-gray-50 sm:w-full p-8 rounded">

@@ -21,7 +21,7 @@ export default function Sell() {
         Watch previous live streams and get notified when we go live again.
         </p>
         <div className="flex gap-6 mt-2 max-w-0xl flex-wrap items-left justify-around">
-        <label class="flex gap-6 mt-2 max-w-0xl flex-wrap item-left justify-around">
+        <label className="flex gap-6 mt-2 max-w-0xl flex-wrap item-left justify-around">
                 <span className="text-black text-left text-b">Categeries</span>
                 <input className="flex w-full mt-1 rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" type="text" aria-label="Search" placeholder="Search..."></input>
               </label>
@@ -220,10 +220,10 @@ export default function Sell() {
           </a>
           </div>
           <h2 className='mt-12 text-3xl font-b'>
-            
+            New products
           </h2>
           <p className="mt-6">
-          
+          <code className="text-white bg-blue-700 rounded-xl font-n p-1 text-centre">Coming soon</code>
           </p>
         </main>
         </div>

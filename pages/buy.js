@@ -29,17 +29,17 @@ export default function Sell() {
         <div className="flex gap-6 mt-6 max-w-0xl flex-wrap items-center justify-around">
         <button className="bg-orange-600 hover:bg-green-600 text-white font-bold py-3 px-8 rounded mt-12">
           <Link href="/login">
-            <a>Start building</a>
+            <a>Start shopping</a>
           </Link>
         </button>
         <button className="bg-orange-600 hover:bg-green-600 text-white font-bold py-3 px-8 rounded mt-12">
           <Link href="/register">
-            <a>Get a demo</a>
+            <a>Watch products</a>
           </Link>
         </button>
         </div>
             <p className='mt-8 text-2xl font-normal'>
-                Unique features
+                Unique shopping experience with live streaming.
             </p>
             <div className="mt-6 flex max-w-7xl flex-wrap items-center justify-around sm:w-full">
           <a
@@ -48,7 +48,7 @@ export default function Sell() {
           >
             <h3 className="text-2xl font-bold">Ubiquity</h3>
             <p className="mt-4 text-xl">
-               Reduce your selling costs and sustain more efficient
+               Reduce your shopping costs and sustain more efficient
             </p>
           </a>
 
@@ -58,7 +58,7 @@ export default function Sell() {
             >
             <h3 className="text-2xl font-bold">Global reach</h3>
             <p className="mt-4 text-xl">
-               Reaches your customers,around the earth 
+               Reaches your organic product need,around the worlds future organic products 
             </p>
             </a>
 
@@ -68,7 +68,7 @@ export default function Sell() {
             >
             <h3 className="text-2xl font-bold">Universal standards</h3>
             <p className="mt-4 text-xl">
-               High quality live streaming technology across the globe
+               High quality organic and fresh products across the globe collection
             </p>
             </a>
 
@@ -78,7 +78,7 @@ export default function Sell() {
             >
             <h3 className="text-2xl font-bold">Richness</h3>
             <p className="mt-4 text-xl">
-              Real video selling are possible and cusuming real experience
+              Organic products are possible and cusuming in the future
             </p>
             </a>
 
@@ -88,7 +88,7 @@ export default function Sell() {
             >
             <h3 className="text-2xl font-bold">Interactivity</h3>
             <p className="mt-4 text-xl">
-              Engaged face to face interaction with customers 
+              Engaged face to face interaction with seller 
             </p>
             </a>
 
@@ -98,7 +98,7 @@ export default function Sell() {
             >
             <h3 className="text-2xl font-bold">Information density</h3>
             <p className="mt-4 text-xl">
-              Reduces costs and raises high quality business 
+              Reduce costs and raises high quality organic products 
             </p>
             </a>
 
@@ -108,7 +108,7 @@ export default function Sell() {
             >
             <h3 className="text-2xl font-bold">Personalization</h3>
             <p className="mt-4 text-xl">
-               Technology allows personalized own made business experience
+               Technology allows personalized own made shopping experience
             </p>
             </a>
 
@@ -118,7 +118,7 @@ export default function Sell() {
             >
             <h3 className="text-2xl font-bold">Customisation</h3>
             <p className="mt-4 text-xl">
-               Technology delivered real experience on business characteristics
+               Technology delivered real experience on shopping characteristics
             </p>
             </a>
 
@@ -128,7 +128,7 @@ export default function Sell() {
             >
             <h3 className="text-2xl font-bold">DiffServe</h3>
             <p className="mt-4 text-xl">
-                The promise of high quality live streaming
+                The promise of high quality organic products
             </p>
             </a>
 
@@ -138,7 +138,7 @@ export default function Sell() {
             >
             <h3 className="text-2xl font-bold">Physcial reality</h3>
             <p className="mt-4 text-xl">
-                Real selling experice on real digitization
+                Real shopping experice on organic products
             </p>
             </a>
 

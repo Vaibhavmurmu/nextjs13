@@ -11,7 +11,7 @@ export default function Index() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
+      <main className="mt-16 flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
         <card className="mt-12 w-100 rounded-xl border p-3 text-left hover:text-blue-600 focus:text-blue-600">
           <badage className="text-1xl font-normal mt-2">
             <p className="text-1xl font-normal"><button className='bg-blue-600 text-white font-n py-1 px-3 rounded mt-0'>New</button> Introducing next generation and future of retail &rarr;</p>
@@ -24,16 +24,16 @@ export default function Index() {
           </a>
         </h1>
 
-        <p className="mt-12 text-2xl bottom-2">
+        <p className="mt-12 text-2xl bottom-0">
           Where the retailers build own made live streaming store.
         </p>
-        <div className="flex gap-6 mt-10 max-w-0xl flex-wrap items-center justify-around">
-        <button className="bg-orange-600 hover:bg-black text-white font-medium py-3 px-12 rounded-lg p-3 mt-10">
+        <div className="flex gap-4 flex-cols-2 mt-10 max-w-2xl flex-wrap items-center justify-around">
+        <button className="bg-orange-600 hover:bg-black text-white font-medium py-4 px-14 rounded-lg mt-10">
           <Link href="/register">
             <a>Go live stream</a>
          </Link>
         </button>
-        <button className="bg-orange-600 hover:bg-black text-white font-medium py-3 px-12 rounded-lg p-3 mt-10">
+        <button className="bg-orange-600 hover:bg-black text-white font-medium py-4 px-14 rounded-lg mt-10">
           <Link href="/register">
             <a>Watched live</a>
           </Link>
@@ -220,13 +220,13 @@ export default function Index() {
                   Lets building your own made sell and buy expercence.
                 </p>
         </div>
-        <div className="flex gap-2 mt-2 max-w-1xl flex-wrap items-center justify-around">
-        <button className="bg-black hover:bg-white text-white font-medium hover:text-black py-3 px-12 rounded-lg p-3 mt-12">
+        <div className="flex gap-4 mt-2 max-w-1xl flex-wrap items-center justify-around">
+        <button className="bg-black hover:bg-white text-white font-medium hover:text-black py-4 px-14 rounded-lg mt-12">
           <Link href="/login">
             <a>Get Started</a>
           </Link>
         </button>
-        <button className="bg-black hover:bg-white text-white font-medium hover:text-black py-3 px-12 rounded-lg p-3 mt-12">
+        <button className="bg-black hover:bg-white text-white font-medium hover:text-black py-4 px-14 rounded-lg mt-12">
           <Link href="/register">
             <a>Learn More</a>
           </Link>
@@ -251,8 +251,8 @@ export default function Index() {
           <h2 className="mt-2 text-bold">
             Get live stream updates
           </h2>
-          <input className="focus:ring-2 focus:ring-blue-500 focus:outline-none appearance-none w-48 text-sm leading-6 text-slate-900 placeholder-slate-400 rounded-md py-2 pl-10 ring-1 ring-slate-200 shadow-sm" type="text" aria-label="Email address" placeholder="Email address..."></input>
-          <button className="mt-2 bg-black text-white hover:bg-white hover:text-black font-n py-1 px-3 rounded">Subscribe</button>
+          <input className="focus:ring-1 focus:ring-blue-500 focus:outline-none appearance-none w-48 text-sm leading-6 text-slate-900 placeholder-slate-400 rounded-md py-3 pl-10 ring-1 ring-slate-200 shadow-sm" type="text" aria-label="Email address" placeholder="Email address..."></input>
+          <button className="mt-2 bg-black text-white hover:bg-white hover:text-black font-n py-4 px-12 rounded">Subscribe</button>
         </div>
       </main>
     </div>

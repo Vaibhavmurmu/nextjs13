@@ -28,12 +28,12 @@ export default function Index() {
           Where the retailers build own made live streaming store.
         </p>
         <div className="flex gap-4 flex-cols-2 mt-10 max-w-2xl flex-wrap items-center justify-around">
-        <button className="bg-orange-600 hover:bg-black text-white font-medium py-4 px-14 rounded-lg mt-10">
+        <button className="bg-black text-white font-medium py-4 px-14 rounded-lg mt-10">
           <Link href="/register">
             <a>Go live stream</a>
          </Link>
         </button>
-        <button className="bg-orange-600 hover:bg-black text-white font-medium py-4 px-14 rounded-lg mt-10">
+        <button className="bg-black text-white font-medium py-4 px-14 rounded-lg mt-10">
           <Link href="/register">
             <a>Watched live</a>
           </Link>
@@ -211,41 +211,97 @@ export default function Index() {
             </p>
           </a>
         </div>
-        <p className="mt-8 text-0xl text-center text-base text-black hover:text-black">
+        <p className="mt-8 text-1xl text-center text-black hover:text-black">
           Explore more features,benifits and experience on runash live streaming platform.
         </p>
-          <div className='mt-16 text-xl'>
-                <h4 className="text-3xl text-orange-600 font-bold">Begin your live streaming journey ✨</h4>
-                <p className="mt-4 text-centre text-base text-black text-1xl bottom-2">
-                  Lets building your own made sell and buy expercence.
-                </p>
+          <div className='mt-16 text-2xl'>
+                <h4 className="text-3xl text-black font-bold">Begin your live streaming journey</h4>
         </div>
+        <div className="mt-12 flex max-w-7xl flex-wrap items-center justify-around sm:w-full">
+          <a
+            href="https://nextjs.org/docs"
+            className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white "
+          >
+            <h3 className="text-2xl text-red-600 font-bold">Live</h3>
+            <p className="mt-4 text-xl">
+              Live streaming.
+              <br />
+                <Link href="/login">
+                <a className='text-blue-600'>By Seller</a>
+                </Link>
+            </p>
+          </a>
+          <a 
+            href="https://vercel.com/import"
+            className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white"
+          >
+            <h3 className="text-2xl text-red-600 font-bold">Live</h3>
+            <p className="mt-4 text-xl">
+              Live streaming.
+              <br />
+                <Link href="/login">
+
+                <a className='text-blue-600'>By Seller</a>
+                </Link>
+            </p>
+          </a>
+          <a
+            href="https://vercel.com/import"
+            className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white"
+          >
+            <h3 className="text-2xl text-red-600 font-bold">Live</h3>
+            <p className="mt-4 text-xl">
+              Live streaming.
+              <br />
+                <Link href="/login">
+                <a className='text-blue-600'>By Seller</a>
+                </Link>
+            </p>
+          </a>
+          <a
+            href="https://vercel.com/import"
+            className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white "
+          >
+            
+            
+            <h3 className="text-2xl text-red-600 font-bold"><code className="">Live</code></h3>
+            <p className="mt-4 text-xl">
+              Live streaming.
+              <br />
+                <Link href="/login">
+                <a className='text-blue-600'>By Seller</a>
+                </Link>
+            </p>
+          </a>
+          </div>
+
+
         <div className="flex gap-4 mt-2 max-w-1xl flex-wrap items-center justify-around">
-        <button className="bg-black hover:bg-white text-white font-medium hover:text-black py-4 px-14 rounded-lg mt-12">
+        <button className="bg-black hover:bg-blue-600 text-white font-medium hover:text-black py-4 px-14 rounded-lg mt-12">
           <Link href="/login">
             <a>Get Started</a>
           </Link>
         </button>
-        <button className="bg-black hover:bg-white text-white font-medium hover:text-black py-4 px-14 rounded-lg mt-12">
+        <button className="bg-black hover:bg-blue-600 text-white font-medium hover:text-black py-4 px-14 rounded-lg mt-12">
           <Link href="/register">
             <a>Learn More</a>
           </Link>
         </button>
         </div>
         
-         <p className="mt-12 w-full p-5 text-1xl text-centre">
+         <p className="mt-12 w-full p-5 text-2xl text-centre">
            <Link href="/feedback">
              <a>Give your most valuable feedback to improve live experience better &rarr;</a>
           </Link>
           </p>
         
 
-        <div className="mt-8 flex max-w-full flex-wrap item-centre justify-around bg-gray-50 sm:w-full p-8 rounded">
+        <div className="mt-8 flex max-w-full flex-wrap item-centre justify-around bg-gradient-to-r from-natural-100 sm:w-full p-8 rounded">
           <h2 className="mt-3 text-2xl text-bold">
             Get live stream updates
           </h2>
           <input className=" mt-3 w-48 text-sm leading-2 rounded-md py-2 pl-10" type="text" aria-label="Email address" placeholder="Email address..."></input>
-          <button className="mt-3 bg-black text-white hover:bg-white hover:text-black font-n py-3 px-12 rounded">Subscribe</button>
+          <button className="mt-3 bg-black text-white hover:bg-orange-600 hover:text-white font-b py-3 px-14 rounded">Subscribe</button>
         </div>
       </main>
     </div>

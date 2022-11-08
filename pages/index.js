@@ -212,10 +212,10 @@ export default function Index() {
           </a>
         </div>
         <p className="mt-8 text-0xl text-center text-base text-black hover:text-black">
-          Explore more features and experience on runash
+          Explore more features,benifits and experience on runash live streaming platform.
         </p>
           <div className='mt-16 text-xl'>
-                <h4 className="text-1xl text-orange-600 font-bold">Begin your live streaming journey ✨</h4>
+                <h4 className="text-3xl text-orange-600 font-bold">Begin your live streaming journey ✨</h4>
                 <p className="mt-4 text-centre text-base text-black text-1xl bottom-2">
                   Lets building your own made sell and buy expercence.
                 </p>
@@ -233,26 +233,19 @@ export default function Index() {
         </button>
         </div>
         
-         <p className="mt-12 w-full p-5 text-centre">
-           <Link href="/">
-             <a>Give your most valuable feedback to improve live experience better</a>
+         <p className="mt-12 w-full p-5 text-1xl text-centre">
+           <Link href="/feedback">
+             <a>Give your most valuable feedback to improve live experience better &rarr;</a>
           </Link>
           </p>
-        <div className="mt-2 grid grid-flow-col">
-          <button className="bg-white-600 text-gray-400 hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">😭</button>
-          <button className="bg-white-600 text-gray-400 hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">😕</button>
-          <button className="bg-white-600 text-gray-400 hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">😃</button>
-          <button className="bg-white-600 text-gray-400 hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded mt-0">🤩</button>
-         </div>
-          <button className="mt-12 bg-blue-600 text-white hover:bg-amber-50 hover:text-black font-n py-1 px-3 rounded">feedback</button>
         
 
         <div className="mt-8 flex max-w-full flex-wrap item-centre justify-around bg-gray-50 sm:w-full p-8 rounded">
-          <h2 className="mt-2 text-bold">
+          <h2 className="mt-3 text-2xl text-bold">
             Get live stream updates
           </h2>
-          <input className="focus:ring-1 focus:ring-blue-500 focus:outline-none appearance-none w-48 text-sm leading-6 text-slate-900 placeholder-slate-400 rounded-md py-3 pl-10 ring-1 ring-slate-200 shadow-sm" type="text" aria-label="Email address" placeholder="Email address..."></input>
-          <button className="mt-2 bg-black text-white hover:bg-white hover:text-black font-n py-4 px-12 rounded">Subscribe</button>
+          <input className=" mt-3 w-48 text-sm leading-2 rounded-md py-2 pl-10" type="text" aria-label="Email address" placeholder="Email address..."></input>
+          <button className="mt-3 bg-black text-white hover:bg-white hover:text-black font-n py-3 px-12 rounded">Subscribe</button>
         </div>
       </main>
     </div>

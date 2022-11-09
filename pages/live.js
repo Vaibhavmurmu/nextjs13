@@ -1,6 +1,7 @@
 import Link from 'next/link'
-import Head from 'next/head'
-import Image from 'next/image'
+import Scroll from '../components/Scroll'
+
+
 
 export default function Live() {
     return (
@@ -8,6 +9,7 @@ export default function Live() {
             <h1 className="text-6xl font-n">
                 Creat your live stream
             </h1>
+            <Scroll />
         </div>
         )
     }

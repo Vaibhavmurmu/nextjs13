@@ -18,7 +18,7 @@ export default function Index() {
           </badage>
         </card>
         <h1 className="mt-12 text-6xl font-bold">
-          Live retail streaming{' '}<br />
+          Live retail streaming<br />
           <a className="text-orange-600" href="https://nextjs.org">
             platform
           </a>
@@ -28,12 +28,12 @@ export default function Index() {
           Where the retailers build own made live streaming store.
         </p>
         <div className="flex gap-4 flex-cols-2 mt-10 max-w-2xl flex-wrap items-center justify-around">
-        <button className="bg-black text-white font-medium py-4 px-14 rounded-lg mt-10">
+        <button className="bg-black text-white hover:text-orange-600 hover:bg-white hover:border-orange-600 font-medium py-4 px-14 rounded-lg mt-10">
           <Link href="/register">
             <a>Go live stream</a>
          </Link>
         </button>
-        <button className="bg-black text-white font-medium py-4 px-14 rounded-lg mt-10">
+        <button className="bg-black text-white hover:bg-white hover:text-orange-600 hover:border-orange-600 font-medium py-4 px-14 rounded-lg mt-10">
           <Link href="/register">
             <a>Watched live</a>
           </Link>
@@ -215,14 +215,14 @@ export default function Index() {
           Explore more features,benifits and experience on runash live streaming platform.
         </p>
           <div className='mt-16 text-2xl'>
-                <h4 className="text-3xl text-black font-bold">Begin your live streaming journey</h4>
+                <h4 className="text-2xl text-black font-bold">Begin your live streaming journey</h4>
         </div>
         <div className="mt-12 flex max-w-7xl flex-wrap items-center justify-around sm:w-full">
           <a
             href="https://nextjs.org/docs"
             className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white "
           >
-            <h3 className="text-2xl text-red-600 font-bold">Live</h3>
+            <h3 className="bg-white bg-shadow-lg text-red-600 hover:bg-white border rounded-lg hover:border-black font-n py-1 px-1 mt-0">.Live</h3>
             <p className="mt-4 text-xl">
               Live streaming.
               <br />
@@ -289,7 +289,7 @@ export default function Index() {
         </button>
         </div>
         
-         <p className="mt-12 w-full p-5 text-2xl text-centre">
+         <p className="mt-12 w-full p-5 text-1xl text-centre">
            <Link href="/feedback">
              <a>Give your most valuable feedback to improve live experience better &rarr;</a>
           </Link>
@@ -297,9 +297,9 @@ export default function Index() {
         
 
         <div className="mt-8 flex max-w-full flex-wrap item-centre justify-around bg-gradient-to-r from-natural-100 sm:w-full p-8 rounded">
-          <h2 className="mt-3 text-2xl text-bold">
+          <p className="mt-8 text-1xl text-bold">
             Get live stream updates
-          </h2>
+          </p>
           <input className=" mt-3 w-48 text-sm leading-2 rounded-md py-2 pl-10" type="text" aria-label="Email address" placeholder="Email address..."></input>
           <button className="mt-3 bg-black text-white hover:bg-orange-600 hover:text-white font-b py-3 px-14 rounded">Subscribe</button>
         </div>

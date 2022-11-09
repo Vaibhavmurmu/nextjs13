@@ -49,7 +49,7 @@ export default function Help() {
                 <span className="text-gray-700">Help schedule?</span>
                 <input
                   type="date"
-                  class="
+                  className="
                     mt-1
                     block
                     w-full

@@ -28,12 +28,12 @@ export default function Footer() {
                 </li>
                 <li className="mr-10">
                     <Link href="/faq">
-                        <a className="text-lg font-n">FAQ</a>
+                        <a className="text-lg hide font-n">FAQ</a>
                     </Link>
                 </li>
             </ul>
         </footer>
-        <div className="flex h-24 sm:w-full items-center justify-center border-t">
+        <div className="flex h-24 w-full items-center justify-center border-t">
                 <a
                     className="flex items-center justify-center gap-2"
                     href="https://vercel.com"

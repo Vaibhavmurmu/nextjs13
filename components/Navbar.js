@@ -3,8 +3,8 @@ import { Bars2Icon, XMarkIcon} from '@heroicons/react/24/solid'
 
 export default function Navbar() {
     return (
-        <main className="flex w-full flex-1 flex-col items-center justify-center px-21 text-center sm:w-full">
-        <div className=" mt-6 flex-wrap items-center justify-around sm:w-full fixed flex-row bg-natural-50 backdrop-blur-sm shadow-sm opecity-25 blur-none h-8 px-20 py-16 hidden sm:flex">
+        <main className="flex w-full flex-1 flex-row items-center justify-center px-21 text-center sm:w-full">
+        <div className=" mt-6 flex-1 items-center justify-around sm:w-full fixed flex-row bg-natural-50 backdrop-blur-sm shadow-sm opecity-25 blur-none h-8 px-20 py-16 hidden sm:flex">
         <div className="flex flex-row items-left">
             <h1 className="text-3xl font- p-4 mr-0">RunAsh</h1>
         </div> 
@@ -37,8 +37,8 @@ export default function Navbar() {
                 </li>
             </ul>
         </div>
-        <div className="flex items-center">
-            <ul className="flex items-center">
+        <div className="flex flex-row items-center">
+            <ul className="flex flex-row items-center">
             <li className="p-4 mr-1">
                 <Link href="/login">
                 <a className="text-lg font-n px-3 py-2"><button className="bg-white text-slate-600 hover:bg-white border rounded-lg hover:border-black font-n py-1 px-3 mt-0">Login</button></a>

@@ -30,7 +30,7 @@ export default function Index() {
         <div className="flex gap-4 mt-2 max-w-1xl flex-wrap items-center justify-around">
         <button className="bg-black hover:bg-blue-600 text-white font-medium hover:text-black py-4 px-14 rounded-lg mt-12">
           <Link href="/register">
-            <a>Live</a>
+            <a>Go Live</a>
          </Link>
         </button>
         <button className="bg-black hover:bg-blue-600 text-white font-medium hover:text-black py-4 px-14 rounded-lg mt-12">

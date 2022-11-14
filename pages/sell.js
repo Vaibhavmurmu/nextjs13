@@ -246,7 +246,7 @@ export default function Sell() {
           <p className="mt-6 text-xl">
            Our team personally explains you, how to go live 
           </p>
-          <div className="mt-8 flex max-w-full flex-wrap item-centre justify-around bg-gray-50 sm:w-full p-8 rounded">
+          <div className="mt-8 flex max-w-full flex-wrap item-centre justify-around bg-gray-50 sm:w-full p-8 rounded-xl border">
           <h2 className="mt-2 text-bold">
             Get live stream updates
           </h2>

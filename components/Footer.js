@@ -8,17 +8,17 @@ export default function Footer() {
             <ul className="flex flex-row items-center">
                 <li className="mr-10">
                     <Link href="/about">
-                        <a className="text-lg font-n">About</a>
+                        <a className="text-lg hidden md:flex font-n">About</a>
                     </Link>
                 </li>
                 <li className="mr-10">
                     <Link href="/contact">
-                        <a className="text-lg font-n">Contact</a>
+                        <a className="text-lg hidden md:flex font-n">Contact</a>
                     </Link>
                 </li>
                 <li className="mr-10">
                     <Link href="/privacy">
-                        <a className="text-lg font-n">Privacy</a>
+                        <a className="text-lg hidden md:flex font-n">Privacy</a>
                     </Link>
                 </li>
                 <li className="mr-10">

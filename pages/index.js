@@ -258,6 +258,22 @@ export default function Index() {
                 </Link>
             </p>
           </a>
+          
+          <a
+            href="https://vercel.com/import"
+            className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white "
+          >
+            
+            
+            <h3 className="text-2xl text-red-600 font-bold"><code className="">Live</code></h3>
+            <p className="mt-4 text-xl">
+              Live streaming.
+              <br />
+                <Link href="/login">
+                <a className='text-blue-600'>By Seller</a>
+                </Link>
+            </p>
+          </a>
           <a
             href="https://vercel.com/import"
             className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white "

@@ -23,12 +23,12 @@ export default function Footer() {
                 </li>
                 <li className="mr-10">
                     <Link href="/help">
-                        <a className="text-lg font-n">Help</a>
+                        <a className="text-lg font-n hidden md:flex">Help</a>
                     </Link>
                 </li>
                 <li className="mr-10">
                     <Link href="/faq">
-                        <a className="text-lg hide font-n">FAQ</a>
+                        <a className="text-lg hidden md:flex font-n">FAQ</a>
                     </Link>
                 </li>
             </ul>

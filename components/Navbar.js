@@ -37,8 +37,8 @@ export default function Navbar() {
                 </li>
             </ul>
         </div>
-        <div className="flex flex-row items-center">
-            <ul className="flex  flex-row items-center">
+        <div className="flex items-center">
+            <ul className="flex items-center">
             <li className="p-4 mr-1">
                 <Link href="/login">
                 <a className="text-lg font-n px-3 py-2"><button className="bg-white text-slate-600 hover:bg-white border rounded-lg hover:border-black font-n py-1 px-3 mt-0">Login</button></a>

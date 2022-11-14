@@ -104,14 +104,13 @@ export default function About() {
         <p className="mt-6 text-0xl">
             Backed by the best open source MIT Github
         </p>
-        <div className="mt-8 flex max-w-8xl flex-wrap item-centre justify-around sm:w-full bg-amber-50 p-8 rounded">
-            <h1 className="text-2xl font-bold">Shape the future of live retail</h1>
-            <button className="bg-orange-600 hover:bg-blue-700 text-white font-bold py-4 px-16 rounded mt-12">
-                <Link href="/">
-                    <a>Join us</a>
-                </Link>
-            </button> 
-         </div>   
+         <div className="mt-8 flex max-w-full flex-wrap item-centre justify-around bg-gray-50 sm:w-full p-8 rounded-xl border">
+          <h2 className="mt-2 text-xl">
+            Shape the future of retail 
+          </h2>
+          <input className="mt-2 focus:ring-2 focus:ring-blue-500 focus:outline-none appearance-none w-48 text-sm leading-6 text-slate-900 placeholder-slate-400 rounded-md py-2 pl-10 ring-1 ring-slate-200 shadow-sm" type="text" aria-label="Email address" placeholder="Email address..."></input>
+          <button className="mt-2 bg-black text-white hover:bg-white hover:text-black font-n py-1 px-3 rounded">Join us</button>
+        </div>
         
 
      </main>

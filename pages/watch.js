@@ -225,6 +225,13 @@ export default function Sell() {
           <p className="mt-6">
           <code className="text-white bg-blue-700 rounded-xl font-n p-1 text-centre">Coming soon</code>
           </p>
+          <div className="mt-8 flex max-w-full flex-wrap item-centre justify-around bg-gray-50 sm:w-full p-8 rounded-xl border">
+          <h2 className="mt-2 text-xl">
+            Get live notification 
+          </h2>
+          <input className="mt-2 focus:ring-2 focus:ring-blue-500 focus:outline-none appearance-none w-48 text-sm leading-6 text-slate-900 placeholder-slate-400 rounded-md py-2 pl-10 ring-1 ring-slate-200 shadow-sm" type="text" aria-label="Email address" placeholder="Email address..."></input>
+          <button className="mt-2 bg-black text-white hover:bg-white hover:text-black font-n py-1 px-3 rounded">Subscribe</button>
+        </div>
         </main>
         </div>
         )

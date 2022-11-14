@@ -46,7 +46,7 @@ export default function Navbar() {
             </li>
             <li className="p-1 mr-1">
                 <Link href="/js-form">
-                <a className="text-lg font-n px-3 py-2"><button className="bg-orange-600 text-white hover:text-orange-600 hover:bg-white hover:border-orange-600 font-n py-1 px-5  border rounded-lg mt-0">Sign Up</button></a>
+                <a className="text-lg font-n px-3 py-2"><button className="bg-orange-600 text-white hover:text-orange-600 hover:bg-white hover:border-orange-600 font-n py-4 px-3  border rounded-lg mt-0">Sign Up</button></a>
                 </Link>
             </li>
             </ul>

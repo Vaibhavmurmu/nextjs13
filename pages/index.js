@@ -27,13 +27,13 @@ export default function Index() {
         <p className="mt-12 text-2xl bottom-0">
           Where the retailers build own made live streaming store.
         </p>
-        <div className="flex gap-4 flex-cols-2 mt-10 max-w-2xl flex-wrap items-center justify-around">
-        <button className="bg-black text-white hover:text-orange-600 hover:bg-white hover:border-orange-600 font-medium py-4 px-14 rounded-lg mt-10">
+        <div className="flex gap-4 mt-2 max-w-1xl flex-wrap items-center justify-around sm:w-full">
+        <button className="bg-black hover:bg-blue-600 text-white font-medium hover:text-black py-4 px-14 rounded-lg mt-12">
           <Link href="/register">
             <a>Go live stream</a>
          </Link>
         </button>
-        <button className="bg-black text-white hover:bg-white hover:text-orange-600 hover:border-orange-600 font-medium py-4 px-14 rounded-lg mt-10">
+        <button className="bg-black hover:bg-blue-600 text-white font-medium hover:text-black py-4 px-14 rounded-lg mt-12">
           <Link href="/register">
             <a>Watched live</a>
           </Link>
@@ -224,7 +224,21 @@ export default function Index() {
           >
             <h3 className="text-2xl text-red-600 font-bold">.Live</h3>
             <p className="mt-4 text-xl">
-              Live streaming.
+            On Site Schedule
+              <br />
+              Virtual schedule
+              <br />
+              When
+              <br />
+              November 30-10,2022
+              <br />
+              Type
+              <br />
+              Streaming
+              <br />
+              Where
+              <br />
+              Watch live streaming
               <br />
                 <Link href="/login">
                 <a className='text-blue-600'>By Seller</a>
@@ -235,9 +249,23 @@ export default function Index() {
             href="https://vercel.com/import"
             className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white"
           >
-            <h3 className="text-2xl text-red-600 font-bold">Live</h3>
+            <h3 className="text-2xl text-red-600 font-bold">.Live</h3>
             <p className="mt-4 text-xl">
-              Live streaming.
+            On Site Schedule
+              <br />
+              Virtual schedule
+              <br />
+              When
+              <br />
+              November 30-10,2022
+              <br />
+              Type
+              <br />
+              Streaming
+              <br />
+              Where
+              <br />
+              Watch live streaming
               <br />
                 <Link href="/login">
 
@@ -249,9 +277,23 @@ export default function Index() {
             href="https://vercel.com/import"
             className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white"
           >
-            <h3 className="text-2xl text-red-600 font-bold">Live</h3>
+            <h3 className="text-2xl text-red-600 font-bold">.Live</h3>
             <p className="mt-4 text-xl">
-              Live streaming.
+            On Site Schedule
+              <br />
+              Virtual schedule
+              <br />
+              When
+              <br />
+              November 30-10,2022
+              <br />
+              Type
+              <br />
+              Streaming
+              <br />
+              Where
+              <br />
+              Watch live streaming
               <br />
                 <Link href="/login">
                 <a className='text-blue-600'>By Seller</a>
@@ -265,9 +307,23 @@ export default function Index() {
           >
             
             
-            <h3 className="text-2xl text-red-600 font-bold"><code className="">Live</code></h3>
+            <h3 className="text-2xl text-red-600 font-bold"><code className="">.Live</code></h3>
             <p className="mt-4 text-xl">
-              Live streaming.
+            On Site Schedule
+              <br />
+              Virtual schedule
+              <br />
+              When
+              <br />
+              November 30-10,2022
+              <br />
+              Type
+              <br />
+              Streaming
+              <br />
+              Where
+              <br />
+              Watch live streaming
               <br />
                 <Link href="/login">
                 <a className='text-blue-600'>By Seller</a>
@@ -280,10 +336,23 @@ export default function Index() {
           >
             
             
-            <h3 className="text-2xl text-red-600 font-bold"><code className="">Live</code></h3>
+            <h3 className="text-2xl text-red-600 font-bold"><code className="">.Live</code></h3>
             <p className="mt-4 text-xl">
-              Live streaming.
+              On Site Schedule
               <br />
+              Virtual schedule
+              <br />
+              When
+              <br />
+              November 30-10,2022
+              <br />
+              Type
+              <br />
+              Streaming
+              <br />
+              Where
+              <br />
+              Watch live streaming
                 <Link href="/login">
                 <a className='text-blue-600'>By Seller</a>
                 </Link>

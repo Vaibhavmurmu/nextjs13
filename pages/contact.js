@@ -18,7 +18,7 @@ export default function Contact() {
         <div className="mt-16 flex max-w-7xl flex-wrap items-center justify-around sm:w-full">
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-lg bg-white"
+            className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-sm bg-white"
           >
             <h3 className="text-2xl font-bold">Help</h3>
             <p className="mt-4 text-xl">
@@ -31,7 +31,7 @@ export default function Contact() {
           </a>
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-lg bg-white"
+            className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-sm bg-white"
           >
             <h3 className="text-2xl font-bold">Support</h3>
             <p className="mt-4 text-xl">
@@ -44,7 +44,7 @@ export default function Contact() {
           </a>
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-lg bg-white"
+            className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-sm bg-white"
           >
             <h3 className="text-2xl font-bold">Become a seller</h3>
             <p className="mt-4 text-xl">
@@ -57,7 +57,7 @@ export default function Contact() {
           </a>
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-lg bg-white"
+            className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-sm bg-white"
           >
             <h3 className="text-2xl font-bold">Become a buyer</h3>
             <p className="mt-4 text-xl">
@@ -70,7 +70,7 @@ export default function Contact() {
           </a>
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-lg bg-white"
+            className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-sm bg-white"
           >
             <h3 className="text-2xl font-bold">Partner</h3>
             <p className="mt-4 text-xl">
@@ -83,7 +83,7 @@ export default function Contact() {
           </a>
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-lg bg-white"
+            className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-sm bg-white"
           >
             <h3 className="text-2xl font-bold">Influencer</h3>
             <p className="mt-4 text-xl">
@@ -96,7 +96,7 @@ export default function Contact() {
           </a>
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-lg bg-white"
+            className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-sm bg-white"
           >
             <h3 className="text-2xl font-bold">Docs</h3><code className="text-blue-400 bg-gray-100 rounded-xl mt-4 font-n p-1 text-center">Coming soon</code>
             <p className="mt-4 text-xl">

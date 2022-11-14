@@ -309,7 +309,7 @@ export default function Index() {
               Watch live streaming
               <br />
                 <Link href="/login">
-                <a className='text-blue-600'><b>On site Schedule<br />Virtual Schedule</b></a>
+                <a className='text-blue-600'>On site Schedule &rarr;<br />Virtual Schedule &rarr;</a>
                 </Link>
             </p>
           </a>
@@ -361,7 +361,7 @@ export default function Index() {
           </p>
         
 
-        <div className="mt-8 flex max-w-full flex-wrap item-centre border justify-around bg-shadow-lg sm:w-full p-8 rounded">
+        <div className="mt-8 flex max-w-full flex-wrap item-centre rounded-xl border justify-around bg-shadow-lg sm:w-full p-8 rounded">
           <p className="mt-8 text-1xl text-bold">
             Get live stream updates
           </p>

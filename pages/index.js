@@ -30,12 +30,12 @@ export default function Index() {
         <div className="flex gap-4 mt-2 max-w-1xl flex-wrap items-center justify-around">
         <button className="bg-black hover:bg-blue-600 text-white font-medium hover:text-black py-4 px-14 rounded-lg mt-12">
           <Link href="/register">
-            <a>Go live stream</a>
+            <a>Live</a>
          </Link>
         </button>
         <button className="bg-black hover:bg-blue-600 text-white font-medium hover:text-black py-4 px-14 rounded-lg mt-12">
           <Link href="/register">
-            <a>Watched live</a>
+            <a>Watched</a>
           </Link>
         </button>
         </div>
@@ -361,7 +361,7 @@ export default function Index() {
           </p>
         
 
-        <div className="mt-8 flex max-w-full flex-wrap item-centre rounded-xl border justify-around bg-shadow-lg sm:w-full p-8 rounded">
+        <div className="mt-8 flex max-w-full flex-wrap item-centre rounded-xl border justify-around bg-shadow-lg sm:w-full p-8">
           <p className="mt-8 text-1xl text-bold">
             Get live stream updates
           </p>

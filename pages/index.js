@@ -309,7 +309,7 @@ export default function Index() {
               Watch live streaming
               <br />
                 <Link href="/login">
-                <a className='text-blue-600'>On site Schedule<br />Virtual Schedule</a>
+                <a className='text-blue-600'><b>On site Schedule<br />Virtual Schedule</b></a>
                 </Link>
             </p>
           </a>

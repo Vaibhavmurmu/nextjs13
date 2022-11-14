@@ -222,7 +222,7 @@ export default function Index() {
             href="https://nextjs.org/docs"
             className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white "
           >
-            <h3 className="bg-white bg-shadow-lg text-red-600 hover:bg-white border rounded-lg hover:border-black font-n py-1 px-1 mt-0">.Live</h3>
+            <h3 className="text-2xl text-red-600 font-bold">.Live</h3>
             <p className="mt-4 text-xl">
               Live streaming.
               <br />
@@ -296,7 +296,7 @@ export default function Index() {
           </p>
         
 
-        <div className="mt-8 flex max-w-full flex-wrap item-centre justify-around bg-gradient-to-r from-natural-100 sm:w-full p-8 rounded">
+        <div className="mt-8 flex max-w-full flex-wrap item-centre border justify-around bg-shadow-lg sm:w-full p-8 rounded">
           <p className="mt-8 text-1xl text-bold">
             Get live stream updates
           </p>

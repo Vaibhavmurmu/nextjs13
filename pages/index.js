@@ -27,7 +27,7 @@ export default function Index() {
         <p className="mt-12 text-2xl bottom-0">
           Where the retailers build own made live streaming store.
         </p>
-        <div className="flex gap-4 mt-2 max-w-1xl flex-wrap items-center justify-around sm:w-full">
+        <div className="flex gap-4 mt-2 max-w-1xl flex-wrap items-center justify-around">
         <button className="bg-black hover:bg-blue-600 text-white font-medium hover:text-black py-4 px-14 rounded-lg mt-12">
           <Link href="/register">
             <a>Go live stream</a>
@@ -224,24 +224,20 @@ export default function Index() {
           >
             <h3 className="text-2xl text-red-600 font-bold">.Live</h3>
             <p className="mt-4 text-xl">
-            On Site Schedule
-              <br />
-              Virtual schedule
-              <br />
-              When
+              <b>When</b>
               <br />
               November 30-10,2022
               <br />
-              Type
+              <b>Type</b>
               <br />
               Streaming
               <br />
-              Where
+              <b>Where</b>
               <br />
               Watch live streaming
               <br />
                 <Link href="/login">
-                <a className='text-blue-600'>By Seller</a>
+                <a className='text-blue-600'>On site Schedule<br />Virtual Schedule</a>
                 </Link>
             </p>
           </a>
@@ -251,25 +247,20 @@ export default function Index() {
           >
             <h3 className="text-2xl text-red-600 font-bold">.Live</h3>
             <p className="mt-4 text-xl">
-            On Site Schedule
-              <br />
-              Virtual schedule
-              <br />
-              When
+            <b>When</b>
               <br />
               November 30-10,2022
               <br />
-              Type
+              <b>Type</b>
               <br />
               Streaming
               <br />
-              Where
+              <b>Where</b>
               <br />
               Watch live streaming
               <br />
                 <Link href="/login">
-
-                <a className='text-blue-600'>By Seller</a>
+                <a className='text-blue-600'>On site Schedule<br />Virtual Schedule</a>
                 </Link>
             </p>
           </a>
@@ -279,24 +270,20 @@ export default function Index() {
           >
             <h3 className="text-2xl text-red-600 font-bold">.Live</h3>
             <p className="mt-4 text-xl">
-            On Site Schedule
-              <br />
-              Virtual schedule
-              <br />
-              When
+            <b>When</b>
               <br />
               November 30-10,2022
               <br />
-              Type
+              <b>Type</b>
               <br />
               Streaming
               <br />
-              Where
+              <b>Where</b>
               <br />
               Watch live streaming
               <br />
                 <Link href="/login">
-                <a className='text-blue-600'>By Seller</a>
+                <a className='text-blue-600'>On site Schedule<br />Virtual Schedule</a>
                 </Link>
             </p>
           </a>
@@ -309,24 +296,20 @@ export default function Index() {
             
             <h3 className="text-2xl text-red-600 font-bold"><code className="">.Live</code></h3>
             <p className="mt-4 text-xl">
-            On Site Schedule
-              <br />
-              Virtual schedule
-              <br />
-              When
+            <b>When</b>
               <br />
               November 30-10,2022
               <br />
-              Type
+              <b>Type</b>
               <br />
               Streaming
               <br />
-              Where
+              <b>Where</b>
               <br />
               Watch live streaming
               <br />
                 <Link href="/login">
-                <a className='text-blue-600'>By Seller</a>
+                <a className='text-blue-600'>On site Schedule<br />Virtual Schedule</a>
                 </Link>
             </p>
           </a>
@@ -338,23 +321,20 @@ export default function Index() {
             
             <h3 className="text-2xl text-red-600 font-bold"><code className="">.Live</code></h3>
             <p className="mt-4 text-xl">
-              On Site Schedule
-              <br />
-              Virtual schedule
-              <br />
-              When
+            <b>When</b>
               <br />
               November 30-10,2022
               <br />
-              Type
+              <b>Type</b>
               <br />
               Streaming
               <br />
-              Where
+              <b>Where</b>
               <br />
               Watch live streaming
+              <br />
                 <Link href="/login">
-                <a className='text-blue-600'>By Seller</a>
+                <a className='text-blue-600'>On site Schedule<br />Virtual Schedule</a>
                 </Link>
             </p>
           </a>

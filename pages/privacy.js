@@ -8,8 +8,8 @@ export default function Privacy() {
             <title>Live Retail Streaming</title>
             <link rel="icon" href="/favicon.ico" />
         </Head>
-        <main className="flex w-full flex-1 flex-col items-center justify-centre px-21 text-center dark:prose-invert">
-            <h1 className="mt-16 bg-gray-50 w-full p-16 text-6xl font-b">
+        <main className="mt-16 flex w-full flex-1 flex-col items-center justify-centre px-21 text-center dark:prose-invert">
+            <h1 className="mt-12 bg-gray-50 w-full p-16 text-6xl font-b">
                 Privacy Policy
             </h1>
             </main>

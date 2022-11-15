@@ -28,12 +28,12 @@ export default function Index() {
           Where the retailers build own made live streaming store.
         </p>
         <div className="flex gap-4 mt-2 max-w-1xl flex-wrap items-center justify-around">
-        <button className="bg-black hover:bg-blue-600 text-white font-medium hover:text-black py-4 px-14 rounded-lg mt-12">
+        <button className="bg-black hover:bg-blue-600 text-white font-medium hover:text-black py-4 px-14 border rounded-xl mt-12">
           <Link href="/register">
             <a>Go Live</a>
          </Link>
         </button>
-        <button className="bg-black hover:bg-blue-600 text-white font-medium hover:text-black py-4 px-14 rounded-lg mt-12">
+        <button className="bg-black hover:bg-blue-600 text-white font-medium hover:text-black py-4 px-14 border rounded-xl mt-12">
           <Link href="/register">
             <a>Watched</a>
           </Link>
@@ -342,12 +342,12 @@ export default function Index() {
 
 
         <div className="flex gap-4 mt-2 max-w-1xl flex-wrap items-center justify-around">
-        <button className="bg-black hover:bg-blue-600 text-white font-medium hover:text-black py-4 px-14 rounded-lg mt-12">
+        <button className="bg-black hover:bg-blue-600 text-white font-medium hover:text-black py-4 px-14 border rounded-xl mt-12">
           <Link href="/login">
             <a>Get Started</a>
           </Link>
         </button>
-        <button className="bg-black hover:bg-blue-600 text-white font-medium hover:text-black py-4 px-14 rounded-lg mt-12">
+        <button className="bg-black hover:bg-blue-600 text-white font-medium hover:text-black py-4 px-14 border rounded-xl mt-12">
           <Link href="/register">
             <a>Learn More</a>
           </Link>
@@ -365,8 +365,8 @@ export default function Index() {
           <p className="mt-8 text-1xl text-bold">
             Get live stream updates
           </p>
-          <input className=" mt-3 w-48 text-sm leading-2 rounded-md py-2 pl-10" type="text" aria-label="Email address" placeholder="Email address..."></input>
-          <button className="mt-3 bg-black text-white hover:bg-orange-600 hover:text-white font-b py-3 px-14 rounded">Subscribe</button>
+          <input className=" mt-3 w-48 text-sm leading-2 border rounded-xl py-2 pl-10" type="text" aria-label="Email address" placeholder="Email address..."></input>
+          <button className="mt-3 bg-black text-white hover:bg-orange-600 hover:text-white font-b py-3 px-14 border rounded-xl">Subscribe</button>
         </div>
       </main>
     </div>

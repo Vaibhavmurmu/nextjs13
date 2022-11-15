@@ -3,7 +3,7 @@ import { Menu } from '@headlessui/react'
 
 export default function Dropdown() {
     return (
-        <div className="">
+        <div className="flex flax-row">
       <Menu>
         <Menu.Button>More</Menu.Button>
         <Menu.Items>

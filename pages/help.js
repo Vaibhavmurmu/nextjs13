@@ -5,8 +5,8 @@ import Image from 'next/image'
 export default function Help() {
     return (
         <main className="mt-16 flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
-        <div className="flex min-h-screen flex-col items-center justify-center py-2">
-            <h1 className="mt-12 text-6xl font-n">
+        <div className="mt-12 flex min-h-screen flex-col items-center justify-center py-2">
+            <h1 className="mt-12 text-3xl font-b">
                 How can we help?
             </h1>
             <div className="py-8">

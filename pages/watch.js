@@ -10,8 +10,8 @@ export default function Sell() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
-        <h1 className="mt-14 text-6xl font-bold">
+      <main className="mt=16 flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
+        <h1 className="mt-12 text-6xl font-bold">
           Live-on demand{' '}<br /> 
           <a className="text-black" href="https://nextjs.org">
           </a>

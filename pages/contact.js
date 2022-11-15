@@ -8,8 +8,8 @@ export default function Contact() {
             <title>Live Retail Streaming</title>
             <link rel="icon" href="/favicon.ico" />
           </Head>
-          <main className="flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
-            <h1 className="mt-16 text-6xl font-b">
+          <main className="mt-16 flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
+            <h1 className="mt-12 text-3xl font-b">
                 We are here to help
             </h1>
             <p className="mt-6 text-2xl bottom-2 font-n">

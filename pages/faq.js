@@ -4,11 +4,11 @@ import Image from 'next/image'
 
 export default function Faq() {
     return (
-        <div className="flex min-h-screen flex-col items-center justify-center py-2">
+        <div className="mt-16 flex min-h-screen flex-col items-center justify-center py-2">
             <h1 className="mt-12 text-6xl font-n">
                 FAQ
             </h1>
-            <p className="mt-6 text-2xl font-n">
+            <p className="mt-12 text-2xl font-n">
                 Frequently Asked Questions
             </p>
                 <div className="mt-6 flex main-h-screen flex-col item-centre justify-centre py-2">

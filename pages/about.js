@@ -9,8 +9,8 @@ export default function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
-        <div className='mt-14 text-1xl card'>
+      <main className="mt=16 flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
+        <div className='mt-12 text-1xl card'>
                 OUR MISSION
         </div>
         <h1 className="mt-12 text-6xl font-bold">

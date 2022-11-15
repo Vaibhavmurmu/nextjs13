@@ -18,12 +18,12 @@ if (session) {
     );
 }
 return (
-    <main className="flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
-      <h1 className="mt-16 text-2xl font-bold">
+    <main className="mt=16 flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
+    <div className="mt=12 flex min-h-screen flex-col items-center justify-center py-2">
+      <h1 className="mt-12 text-2xl font-bold">
         <Link href="/">
           <a>Welcome to</a>
-        </Link>{' '}RunAsh live
+        </Link>{' '}RunAsh 
       </h1>
       
       <p className="mt-10 text-1xl bottom-2">

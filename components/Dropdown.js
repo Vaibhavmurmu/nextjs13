@@ -3,7 +3,7 @@ import { Menu } from '@headlessui/react'
 
 export default function Dropdown() {
     return (
-        <div className="flex flax-row">
+        <div className="flex flax-col">
       <Menu>
         <Menu.Button>More</Menu.Button>
         <Menu.Items>
@@ -23,12 +23,12 @@ export default function Dropdown() {
                 className={`${active && 'bg-blue-500 mt-1'}`}
                 href="/account-settings"
               >
-                Documentation
+                On site schedule
               </a>
             )}
           </Menu.Item>
           <Menu.Item disabled>
-            <span className="opacity-75 mt-1">Invite(coming soon!)</span>
+            <span className="opacity-75 mt-1">Schedule</span>
           </Menu.Item>
         </Menu.Items>
       </Menu>

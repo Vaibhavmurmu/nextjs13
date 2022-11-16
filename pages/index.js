@@ -217,7 +217,7 @@ export default function Index() {
         </p>
         <div className='mt-12 text-6xl'>
         <h1 className="mt-12 text-6xl font-bold">
-          Being your live<br />
+          Being your<br />
           <a className="text-orange-600" href="https://nextjs.org">
             Journey 
           </a>

@@ -215,12 +215,12 @@ export default function Index() {
         <p className="mt-8 text-2xl text-center text-black hover:text-black">
           Explore more features,benifits and experience 
         </p>
-        <div className="mt-12 scroll-center">
+        <div className="mt-12 bg-repeat bg-center sm:w-full sm:w-auto">
          <Scroll />
         </div>
         <div className='mt-12 text-6xl'>
         <h1 className="mt-12 text-6xl font-bold">
-          Made your live<br />
+          Being your live<br />
           <a className="text-orange-600" href="https://nextjs.org">
             Journey 
           </a>

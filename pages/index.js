@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Head from 'next/head'
 import Image from "next/image"
+import Scroll from '../components/Scroll'
 
 
 export default function Index() {
@@ -214,9 +215,12 @@ export default function Index() {
         <p className="mt-8 text-2xl text-center text-black hover:text-black">
           Explore more features,benifits and experience 
         </p>
+        <div class name="mt-12 ">
+         <Scroll />
+        </div>
         <div className='mt-12 text-6xl'>
         <h1 className="mt-12 text-6xl font-bold">
-          Begin Your live<br />
+          Made your live<br />
           <a className="text-orange-600" href="https://nextjs.org">
             Journey 
           </a>

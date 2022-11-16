@@ -1,9 +1,5 @@
 import Link from 'next/link'
-import Dropdown from '../components/Dashboard'
-
-
-
-
+import Dashboard from '../components/Dashboard'
 
 export default function Live() {
     return (

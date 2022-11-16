@@ -215,7 +215,7 @@ export default function Index() {
         <p className="mt-8 text-2xl text-center text-black hover:text-black">
           Explore more features,benifits and experience 
         </p>
-        <div className="mt-12 bg-repeat bg-center sm:w-full sm:w-auto">
+        <div className="mt-12 bg-repeat bg-center md:w-md sm:w-auto md:bg-repeat-x bg-auto md:bg-contain scroll-smooth">
          <Scroll />
         </div>
         <div className='mt-12 text-6xl'>

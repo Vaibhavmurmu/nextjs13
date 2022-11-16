@@ -211,135 +211,22 @@ export default function Index() {
             </p>
           </a>
         </div>
-        <p className="mt-8 text-1xl text-center text-black hover:text-black">
-          Explore more features,benifits and experience on runash live streaming platform.
+        <p className="mt-8 text-2xl text-center text-black hover:text-black">
+          Explore more features,benifits and experience 
         </p>
-          <div className='mt-16 text-2xl'>
-                <h4 className="text-2xl text-black font-bold">Begin your live streaming journey</h4>
-        </div>
-        <div className="mt-12 flex max-w-7xl flex-wrap items-center justify-around sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white "
-          >
-            <h3 className="text-2xl text-red-600 font-bold">.Live</h3>
-            <p className="mt-4 text-xl">
-              <b>When</b>
-              <br />
-              November 30-10,2022
-              <br />
-              <b>Type</b>
-              <br />
-              Streaming
-              <br />
-              <b>Where</b>
-              <br />
-              Watch live streaming
-              <br />
-                <Link href="/login">
-                <a className='text-blue-600'>On site Schedule<br />Virtual Schedule</a>
-                </Link>
-            </p>
+        <div className='mt-12 text-6xl'>
+        <h1 className="mt-12 text-6xl font-bold">
+          Begin Your live<br />
+          <a className="text-orange-600" href="https://nextjs.org">
+            Journey 
           </a>
-          <a 
-            href="https://vercel.com/import"
-            className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white"
-          >
-            <h3 className="text-2xl text-red-600 font-bold">.Live</h3>
-            <p className="mt-4 text-xl">
-            <b>When</b>
-              <br />
-              November 30-10,2022
-              <br />
-              <b>Type</b>
-              <br />
-              Streaming
-              <br />
-              <b>Where</b>
-              <br />
-              Watch live streaming
-              <br />
-                <Link href="/login">
-                <a className='text-blue-600'>On site Schedule<br />Virtual Schedule</a>
-                </Link>
-            </p>
-          </a>
-          <a
-            href="https://vercel.com/import"
-            className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white"
-          >
-            <h3 className="text-2xl text-red-600 font-bold">.Live</h3>
-            <p className="mt-4 text-xl">
-            <b>When</b>
-              <br />
-              November 30-10,2022
-              <br />
-              <b>Type</b>
-              <br />
-              Streaming
-              <br />
-              <b>Where</b>
-              <br />
-              Watch live streaming
-              <br />
-                <Link href="/login">
-                <a className='text-blue-600'>On site Schedule<br />Virtual Schedule</a>
-                </Link>
-            </p>
-          </a>
-          
-          <a
-            href="https://vercel.com/import"
-            className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white "
-          >
-            
-            
-            <h3 className="text-2xl text-red-600 font-bold"><code className="">.Live</code></h3>
-            <p className="mt-4 text-xl">
-            <b>When</b>
-              <br />
-              November 30-10,2022
-              <br />
-              <b>Type</b>
-              <br />
-              Streaming
-              <br />
-              <b>Where</b>
-              <br />
-              Watch live streaming
-              <br />
-                <Link href="/login">
-                <a className='text-blue-600'>On site Schedule &rarr;<br />Virtual Schedule &rarr;</a>
-                </Link>
-            </p>
-          </a>
-          <a
-            href="https://vercel.com/import"
-            className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white "
-          >
-            
-            
-            <h3 className="text-2xl text-red-600 font-bold"><code className="">.Live</code></h3>
-            <p className="mt-4 text-xl">
-            <b>When</b>
-              <br />
-              November 30-10,2022
-              <br />
-              <b>Type</b>
-              <br />
-              Streaming
-              <br />
-              <b>Where</b>
-              <br />
-              Watch live streaming
-              <br />
-                <Link href="/login">
-                <a className='text-blue-600'>On site Schedule<br />Virtual Schedule</a>
-                </Link>
-            </p>
-          </a>
-          </div>
+        </h1>
 
+        <p className="mt-12 text-2xl bottom-0">
+          Build your live broadcast product content
+        </p>
+        </div>
+        
 
         <div className="flex gap-4 mt-2 max-w-1xl flex-wrap items-center justify-around">
         <button className="bg-black hover:bg-blue-600 text-white font-medium hover:text-black py-4 px-14 border rounded-xl mt-12">

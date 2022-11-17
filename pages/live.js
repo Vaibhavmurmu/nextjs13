@@ -1,8 +1,9 @@
 import Link from 'next/link'
-import Image from 'next/image'
+import Image from "next/image"
 
 export default function Live() {
     return (
+        <div className="flex min-h-screen flex-col items-center justify-center py-2">
         <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
          <div className="md:flex">
           <div className="md:shrink-0">
@@ -14,6 +15,7 @@ export default function Live() {
             <p className="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
          </div>
         </div>
+       </div>
        </div>
     )
  }

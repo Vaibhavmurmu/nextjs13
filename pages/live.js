@@ -19,7 +19,7 @@ export default function Live() {
              <input type="tel" className="rounded text-pink-500" />
              <input type="checkbox" className="rounded text-pink-500" />
              <input type="radio" className="rounded text-pink-500" />
-             <select className="block w-full mt-1">
+             <select type='multiple' className="block w-full mt-1">
                   <option>Corporate event</option>
                   <option>Wedding</option>
                   <option>Birthday</option>

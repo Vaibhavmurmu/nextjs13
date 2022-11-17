@@ -25,12 +25,7 @@ export default function Live() {
              <option>one</option>
              <option>one</option>
              </select>
-             <multiple className="rounded text-pink-500" />
-             <option>one</option>
-             <option>one</option>
-             <option>one</option>
-             <option>one</option>
-             </multiple>
+           
           
             </div>
         </div>

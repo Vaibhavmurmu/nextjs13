@@ -34,8 +34,9 @@ return (
     <button  className="mt-8 bg-black text-white hover:bg-orange-600 hover:text-white font-n py-2 px-4 rounded" onClick={() => signIn()}>Sign in &rarr;</button>
     </div>
     </div>
-    <div className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-blue-600">
-      <p className="mt-12 text-2xl bottom-2">New to RunAsh? <Link href="/"><a>Create an account</a></Link></p>
+    <div className="mt-2 w-96 rounded-xl border p-6 text-center focus:text-blue-600">
+      <p className="mt-2 text-2xl bottom-2">New to RunAsh? <Link href="/"><a>Create an account</a></Link></p>
+    </div>
 </main>
 )
 }

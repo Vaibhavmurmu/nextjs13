@@ -18,9 +18,9 @@ if (session) {
     );
 }
 return (
-    <main className="mt-16 flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
-    <div className="mt-12 flex min-h-screen flex-col items-center justify-center py-2">
-      <h1 className="mt-6 text-2xl font-bold">
+    <main className="mt-6 flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
+    <div className="mt-6 flex min-h-screen flex-col items-center justify-center py-2">
+      <h1 className="mt-4 text-2xl font-bold">
         <Link href="/">
           <a>Sign in to</a>
         </Link>{' '}RunAsh 
@@ -34,7 +34,7 @@ return (
     <button  className="mt-8 bg-black text-white hover:bg-orange-600 hover:text-white font-n py-2 px-4 rounded" onClick={() => signIn()}>Sign in &rarr;</button>
     </div>
     
-    <div className="mt-2 w-96 rounded-xl border p-6 text-center focus:text-blue-600">
+    <div className="mt-4 w-96 rounded-xl border p-6 text-center focus:text-blue-600">
       <p className="mt-2 text-1xl bottom-1">New to RunAsh? <Link href="/"><a className="text-blue-600">Create an account.</a></Link></p>
     </div>
     </div>

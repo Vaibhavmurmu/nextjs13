@@ -25,12 +25,12 @@ export default function Live() {
              <option>one</option>
              <option>one</option>
              </select>
-             <select type="multiple" className="rounded text-pink-500" />
+             <multiple className="rounded text-pink-500" />
              <option>one</option>
              <option>one</option>
              <option>one</option>
              <option>one</option>
-             </select>
+             </multiple>
           
             </div>
         </div>

@@ -11,8 +11,8 @@ export default function Live() {
             <input type="number" className="rounded text-pink-500" />
             <input type="url" className="rounded text-pink-500" />
              <input type="date" className="rounded text-pink-500" />
-             <input type="datetime-local" class="rounded text-pink-500" />
-             <input type="month="rounded text-pink-500" />
+             <input type="datetime-local" className="rounded text-pink-500" />
+             <input type="month=" className="rounded text-pink-500" />
              <input type="week" className="rounded text-pink-500" />
              <input type="time" className="rounded text-pink-500" />
              <input type="search" className="rounded text-pink-500" />
@@ -20,7 +20,7 @@ export default function Live() {
              <input type="checkbox" className="rounded text-pink-500" />
              <input type="radio" className="rounded text-pink-500" />
              <input type="select" className="rounded text-pink-500" />
-             <select  type="multiple" className="rounded text-pink-500" />
+             <select type="multiple" className="rounded text-pink-500" />
              <input type="textarea" className="rounded text-pink-500" />
             </div>
         </div>

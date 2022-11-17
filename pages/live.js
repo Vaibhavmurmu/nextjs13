@@ -31,7 +31,7 @@ export default function Live() {
              <option>one</option>
              </select>
 
-             <input type="texarea" className="rounded text-pink-500" />
+             <texarea className="rounded text-pink-500" />
             </div>
         </div>
 

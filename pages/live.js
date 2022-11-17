@@ -17,5 +17,6 @@ export default function Live() {
         </div>
        </div>
        </div>
+       </div>
     )
  }

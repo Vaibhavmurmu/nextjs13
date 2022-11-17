@@ -20,7 +20,7 @@ export default function Live() {
              <input type="checkbox" className="rounded text-pink-500" />
              <input type="radio" className="rounded text-pink-500" />
              <input type="select" className="rounded text-pink-500" />
-             <select type="multiple" className="rounded text-pink-500" />
+             <input type="multiple" className="rounded text-pink-500" />
              <input type="textarea" className="rounded text-pink-500" />
             </div>
         </div>

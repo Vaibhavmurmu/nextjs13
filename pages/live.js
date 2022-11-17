@@ -20,13 +20,6 @@ export default function Live() {
              <input type="checkbox" className="rounded text-pink-500" />
              <input type="radio" className="rounded text-pink-500" />
              <input type="textarea" className="rounded text-pink-500" />
-             <select className="rounded text-pink-500" />
-             <option>one</option>
-             <option>one</option>
-             <option>one</option>
-             </select>
-           
-          
             </div>
         </div>
 

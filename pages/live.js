@@ -20,10 +20,10 @@ export default function Live() {
              <input type="checkbox" className="rounded text-pink-500" />
              <input type="radio" className="rounded text-pink-500" />
              <select type='multiple' className="block w-full mt-1">
-                  <option>Corporate event</option>
-                  <option>Wedding</option>
-                  <option>Birthday</option>
-                  <option>Other</option>
+                  <multiple>Corporate event</multiple>
+                  <multiple>Wedding</multiple>
+                  <multiple>Birthday</multiple>
+                  <multiple>Other</multiple>
                 </select>
 
             </div>

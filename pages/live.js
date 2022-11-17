@@ -4,29 +4,20 @@ import Link from 'next/link'
 export default function Live() {
     return (
         <div className="flex flex-col items-center justify-center min-h-screen py-2">
-            <div className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-            <input type="text" className="rounded text-pink-500" />
-            <input type="password" className="rounded text-pink-500" />
-            <input type="email" className="rounded text-pink-500" />
-            <input type="number" className="rounded text-pink-500" />
-            <input type="url" className="rounded text-pink-500" />
-             <input type="date" className="rounded text-pink-500" />
-             <input type="datetime-local" className="rounded text-pink-500" />
-             <input type="month=" className="rounded text-pink-500" />
-             <input type="week" className="rounded text-pink-500" />
-             <input type="time" className="rounded text-pink-500" />
-             <input type="search" className="rounded text-pink-500" />
-             <input type="tel" className="rounded text-pink-500" />
-             <input type="checkbox" className="rounded text-pink-500" />
-             <input type="radio" className="rounded text-pink-500" />
-             <select type='multiple' className="block w-full mt-1">
-                  <multiple>Corporate event</multiple>
-                  <multiple>Wedding</multiple>
-                  <multiple>Birthday</multiple>
-                  <multiple>Other</multiple>
-                </select>
-
-            </div>
+        <div className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
+        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+        <div class="md:flex">
+        <div class="md:shrink-0">
+           <img class="h-48 w-full object-cover md:h-full md:w-48" src="/img/building.jpg" alt="Modern building architecture">
+        </div>
+         <div class="p-8">
+         <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Company retreats</div>
+         <a href="#" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Incredible accomodation for your team</a>
+          <p class="mt-2 text-slate-500">Looking to take your team away on a retreat to enjoy awesome food and take in some sunshine? We have a list of places to do just that.</p>
+        </div>
+        </div>
+        </div>
+        </div>
         </div>
 
         )

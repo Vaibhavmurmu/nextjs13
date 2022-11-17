@@ -6,7 +6,7 @@ export default function Live() {
         <div className="flex flex-col items-center justify-center min-h-screen py-2">
             <div className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
             <input type="text" className="rounded text-pink-500" />
-            <input type="password" className="rounded text-pink-500" /
+            <input type="password" className="rounded text-pink-500" />
             <input type="email" className="rounded text-pink-500" />
             <input type="number" className="rounded text-pink-500" />
             <input type="url" className="rounded text-pink-500" />

@@ -16,13 +16,18 @@ export default function Contact() {
                 Get in touch and let us know how we can help you.
             </p>
         <div className="mt-16 flex max-w-7xl flex-wrap items-center justify-around sm:w-full">
-            <h3 className="text-2xl font-bold mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-sm bg-white">Help</h3>
+           <a
+            href="https://nextjs.org/docs"
+            className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-sm bg-white">
+            <h3 className="text-2xl font-bold">Help</h3>
             <p className="mt-4 text-xl">
               How can we help you,we are here to help <b>24 x 7 x 365 </b> days
+             <br />
+                <Link href="/login">
+                <a className='text-blue-600'><button className="bg-white hover:bg-orange-600 text-center text-black border border-ring-black text-white font-n py-3 px-12 rounded-lg p-3 mt-12">Get Help &rarr;</button></a>
+                </Link>
              </p>
-             <button className="bg-white hover:bg-orange-600 text-center text-black border border-ring-black text-white font-n py-3 px-12 rounded-lg p-3 mt-12"><Link href="/login"><a className='text-blue-600'>Get Help &rarr;</Link></a></button> 
-            
-         
+            </a>
           <a
             href="https://nextjs.org/docs"
             className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-sm bg-white">

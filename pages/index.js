@@ -54,7 +54,7 @@ export default function Index() {
         <div className="mt-12 flex max-w-7xl flex-wrap items-center justify-around sm:w-full">
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white"
+            className="mt-6 w-58 rounded-xl border p-6 text-left focus:text-black shadow-lg shadow-white"
           >
             <h3 className="text-2xl font-bold">Real Selling</h3>
             <p className="mt-4 text-xl">

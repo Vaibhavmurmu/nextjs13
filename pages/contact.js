@@ -38,7 +38,7 @@ export default function Contact() {
               We are here to help with any RunAsh releted questions.
               <br />
                 <Link href="/login">
-                <a className='text-blue-600'><button className="bg-black hover:bg-orange-600 text-center text-white font-medium py-3 px-12 rounded-lg p-3 mt-12">Get Support &rarr;</button></a>
+                <a className='text-blue-600'><button className="bg-white hover:bg-orange-600 text-center text-black border border-ring-black text-white font-n py-3 px-12 rounded-lg p-3 mt-12">Get Support &rarr;</button></a>
                 </Link>
             </p>
           </a>
@@ -51,7 +51,7 @@ export default function Contact() {
               We did love to talk about how we can work together.
               <br />
                 <Link href="/login">
-                <a className='text-blue-600'><button className="bg-black hover:bg-orange-600 text-center text-white font-medium py-3 px-12 rounded-lg p-3 mt-12">Contact Sales &rarr;</button></a>
+                <a className='text-blue-600'><button className="bg-white hover:bg-orange-600 text-center text-black border border-ring-black text-white font-n py-3 px-12 rounded-lg p-3 mt-12">Contact Sales &rarr;</button></a>
                 </Link>
             </p>
           </a>
@@ -64,7 +64,7 @@ export default function Contact() {
               We did love to talk about how we can work together.
               <br />
                 <Link href="/login">
-                <a className='text-blue-600'><button className="bg-black hover:bg-blue-600 text-center text-white font-medium py-3 px-12 rounded-lg p-3 mt-12">Contact Buying &rarr;</button></a>
+                <a className='text-blue-600'><button className="bg-white hover:bg-orange-600 text-center text-black border border-ring-black text-white font-n py-3 px-12 rounded-lg p-3 mt-12">Contact Buying &rarr;</button></a>
                 </Link>
             </p>
           </a>
@@ -77,7 +77,7 @@ export default function Contact() {
               Join our partner ecosystem and accelerate your business with us.
               <br />
                 <Link href="/login">
-                <a className='text-blue-600'><button className="bg-black hover:bg-blue-600 text-center text-white font-medium py-3 px-12 rounded-lg p-3 mt-12">Become a Partner &rarr;</button></a>
+                <a className='text-blue-600'><button className="bg-white hover:bg-orange-600 text-center text-black border border-ring-black text-white font-n py-3 px-12 rounded-lg p-3 mt-12">Become a Partner &rarr;</button></a>
                 </Link>
             </p>
           </a>
@@ -90,7 +90,7 @@ export default function Contact() {
               Join our helpfullness ecosysytem and accelerate your business with us.
               <br />
                 <Link href="/login">
-                <a className='text-blue-600'><button className="bg-black hover:bg-blue-600 text-center text-white font-medium py-3 px-12 rounded-lg p-3 mt-12">Join Community &rarr;</button></a>
+                <a className='text-blue-600'><button className="bg-white hover:bg-orange-600 text-center text-black border border-ring-black text-white font-n py-3 px-12 rounded-lg p-3 mt-12">Join Community &rarr;</button></a>
                 </Link>
             </p>
           </a>
@@ -103,7 +103,7 @@ export default function Contact() {
               Learn more about how runash makes Your business journey easier.
               <br />
                 <Link href="/login">
-                <a className='text-blue-600'><button className="bg-orange-600 hover:bg-blue-600 text-center text-white font-medium py-3 px-12 rounded-lg p-3 mt-12">Visit Docs &rarr;</button></a>
+                <a className='text-blue-600'><button className="bg-white hover:bg-orange-600 text-center text-black border border-ring-black text-white font-n py-3 px-12 rounded-lg p-3 mt-12">Visit Docs &rarr;</button></a>
                 </Link>
             </p>
           </a>

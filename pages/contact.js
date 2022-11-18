@@ -25,7 +25,7 @@ export default function Contact() {
               How can we help you,we are here to help <b>24 x 7 x 365 </b> days
               <br />
                 <Link href="/login">
-                <a className='text-blue-600'><button className="bg-black hover:bg-orange-600 text-center text-white font-medium py-3 px-12 rounded-lg p-3 mt-12">Get Help &rarr;</button></a>
+                <a className='text-blue-600'><button className="bg-white hover:bg-orange-600 text-center text-black border border-ring-black text-white font-n py-3 px-12 rounded-lg p-3 mt-12">Get Help &rarr;</button></a>
                 </Link>
             </p>
           </a>

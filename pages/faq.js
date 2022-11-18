@@ -51,7 +51,7 @@ export default function Faq() {
                         </Link>Go to your dashbord and setup your prefered date and time then displaying your live products contents.
                     </p>
                  </div>
-                    <div className="mt-6 w-full rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600">
+                    <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
                     <h3 className="text-2xl font-bold">If its your first live stream?</h3>
                     <p className="mt-4 text-xl">
                         <Link href="/register">

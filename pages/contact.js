@@ -16,23 +16,16 @@ export default function Contact() {
                 Get in touch and let us know how we can help you.
             </p>
         <div className="mt-16 flex max-w-7xl flex-wrap items-center justify-around sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-sm bg-white"
-          >
-            <h3 className="text-2xl font-bold">Help</h3>
+            <h3 className="text-2xl font-boldmt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-sm bg-white">Help</h3>
             <p className="mt-4 text-xl">
               How can we help you,we are here to help <b>24 x 7 x 365 </b> days
-              <br />
-                <Link href="/login">
-                <a className='text-blue-600'><button className="bg-white hover:bg-orange-600 text-center text-black border border-ring-black text-white font-n py-3 px-12 rounded-lg p-3 mt-12">Get Help &rarr;</button></a>
-                </Link>
-            </p>
-          </a>
+             </p>
+             <button className="bg-white hover:bg-orange-600 text-center text-black border border-ring-black text-white font-n py-3 px-12 rounded-lg p-3 mt-12"><Link href="/login"><a className='text-blue-600'>Get Help &rarr;</Link></a></button> 
+            
+         
           <a
             href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-sm bg-white"
-          >
+            className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-sm bg-white">
             <h3 className="text-2xl font-bold">Support</h3>
             <p className="mt-4 text-xl">
               We are here to help with any RunAsh releted questions.
@@ -98,7 +91,7 @@ export default function Contact() {
             href="https://nextjs.org/docs"
             className="mt-6 w-96 rounded-xl border p-6 text-center focus:text-black shadow-sm bg-white"
           >
-            <h3 className="text-2xl font-bold">Docs</h3><code className="text-blue-400 bg-gray-100 rounded-xl mt-4 font-n p-1 text-center">Coming soon</code>
+            <h3 className="text-2xl font-bold">Docs</h3><code className="text-blue-400 bg-gray-100 border border-ring-green-400 rounded-xl mt-4 font-n p-1 text-center">Coming soon</code>
             <p className="mt-4 text-xl">
               Learn more about how runash makes Your business journey easier.
               <br />

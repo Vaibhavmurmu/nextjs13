@@ -51,9 +51,9 @@ export default function Faq() {
                         </Link>Go to your dashbord and setup your prefered date and time then displaying your live products contents.
                     </p>
                  </div>
-                    <div className="mt-2 rounded-xl border p-6 text-center hover:text-blue-600 focus:text-blue-600 pt-20 max-w-lg max-auto px-8 space-y-z">
+                    <div className="mt-2 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600 pt-20 max-w-md max-auto px-12 space-y-z">
                     <details className="p-4 rounded-lg bg-white">
-                    <summary className="text-2xl loading-6 font-bold">If its your first live stream?</summary>
+                    <summary className="text-1xl loading-6 font-semibold">If its your first live stream?</summary>
                     <p className="text-gray-600 text-sm mt-4 leading-6">
                        Go to your dashbord and edit your stream stting and preview stream 
                     </p>

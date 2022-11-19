@@ -52,9 +52,9 @@ export default function Faq() {
                     </p>
                  </div>
                     <div className="mt-2 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600 pt-20 max-w-md max-auto px-12 space-y-z">
-                    <details className="p-4 rounded-lg bg-white">
-                    <summary className="text-1xl loading-6 font-semibold">If its your first live stream?</summary>
-                    <p className="text-gray-600 text-sm mt-4 leading-6">
+                    <details className="p-4 rounded-lg bg-gray-600">
+                    <summary className="text-1xl loading-6 font-semibold rounded-lg border">If its your first live stream?</summary>
+                    <p className="text-white text-sm mt-4 leading-6">
                        Go to your dashbord and edit your stream stting and preview stream 
                     </p>
                    </details>

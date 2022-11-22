@@ -29,7 +29,7 @@ export default function Index() {
           Where the retailers build own made live streaming store.
         </p>
         <div className="flex gap-4 mt-2 max-w-1xl flex-wrap items-center justify-around">
-        <button className="bg-black hover:bg-blue-600 text-white font-medium hover:text-black py-4 px-14 border rounded-xl mt-12">
+        <button className="bg-white hover:bg-orange-600 text-black font-medium hover:text-white py-6 px-14 border rounded-xl mt-12">
           <Link href="/register">
             <a>Go Live</a>
          </Link>
@@ -216,11 +216,8 @@ export default function Index() {
           Explore more features,benifits and experience 
         </p>
         <div className='mt-12 text-6xl'>
-        <h1 className="mt-12 text-6xl font-bold">
-          Being your<br />
-          <a className="text-orange-600" href="https://nextjs.org">
-            Journey 
-          </a>
+        <h1 className="mt-12 text-6xl font-bold text-orange-600 bottom-0">
+          Being your journey
         </h1>
 
         <p className="mt-12 text-2xl bottom-0">

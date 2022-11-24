@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import Head from 'next/head'
 import Image from "next/image"
-import Scroll from '../components/Scroll'
-
+import Button from '../components/Button'
+import Cta from '../components/Cta'
 
 export default function Index() {
   return (
@@ -12,34 +12,23 @@ export default function Index() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="mt-16 flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
-        <card className="mt-12 w-100 rounded-xl border bg-white/40 backdrop-blur-md p-3 text-left hover:text-blue-600 focus:text-blue-600">
+      <main className="mt-16 flex w-full flex-1 flex-col items-center justify-centre px-20 text-center ">
+        <card className="mt-14 w-100 rounded-xl border bg-white/40 backdrop-blur-md p-3 text-left hover:text-blue-600 focus:text-blue-600">
           <badage className="text-1xl font-normal mt-2">
             <p className="text-1xl font-normal"><button className='bg-blue-600 text-white font-n py-1 px-3 rounded mt-0'>New</button> Introducing next generation and future of retail &rarr;</p>
           </badage>
         </card>
-        <h1 className="mt-12 text-6xl font-bold">
+        <h1 className="mt-12 text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
           Live retail streaming<br />
           <a className="text-orange-600" href="https://nextjs.org">
             platform
           </a>
         </h1>
 
-        <p className="mt-12 text-2xl bottom-0">
+        <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
           Where the retailers build own made live streaming store.
         </p>
-        <div className="flex gap-4 mt-2 max-w-1xl flex-wrap items-center justify-around">
-        <button className="bg-white hover:bg-orange-600 text-black font-medium hover:text-white py-4 px-16 border rounded-xl mt-12">
-          <Link href="/register">
-            <a>Go Live</a>
-         </Link>
-        </button>
-        <button className="bg-black hover:bg-blue-600 text-white font-medium hover:text-black py-4 px-16 border rounded-xl mt-12">
-          <Link href="/register">
-            <a>Watched</a>
-          </Link>
-        </button>
-        </div>
+        <Button />
         <p className="mt-12 text-0xl bottom-2">
             Get started free
         </p>
@@ -215,42 +204,25 @@ export default function Index() {
         <p className="mt-8 text-2xl text-center text-black hover:text-black">
           Explore more features,benifits and experience 
         </p>
-        <div className='mt-12 text-6xl'>
-        <h1 className="mt-12 text-3xl font-bold text-orange-600 bottom-0">
-          Being your live journey
+        <h1 className="mt-12 text-4xl text-orange-300 font-bold tracking-tight sm:text-center sm:text-6xl">
+            Get started live stream  
         </h1>
 
-        <p className="mt-12 text-2xl bottom-0">
-          Build your live broadcast product content
+        <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
+          Lets build your live broadcast product contents
         </p>
-        </div>
         
-
-        <div className="flex gap-4 mt-2 max-w-1xl flex-wrap items-center justify-around">
-        <button className="bg-black hover:bg-blue-600 text-white font-medium hover:text-black py-4 px-14 border rounded-xl mt-12">
-          <Link href="/login">
-            <a>Get Started</a>
-          </Link>
-        </button>
-        <button className="bg-black hover:bg-blue-600 text-white font-medium hover:text-black py-4 px-14 border rounded-xl mt-12">
-          <Link href="/register">
-            <a>Learn More</a>
-          </Link>
-        </button>
-        </div>
+        <Button />
         
-         <p className="mt-12 w-full p-5 text-1xl text-centre">
-           <Link href="/feedback">
-             <a>Give your most valuable feedback to improve live experience better &rarr;</a>
-          </Link>
-          </p>
+        <Cta />
+         
         
 
         <div className="mt-8 flex max-w-full flex-wrap item-centre rounded-xl border justify-around bg-shadow-lg sm:w-full p-8">
           <p className="mt-8 text-1xl text-bold">
             Get live stream updates
           </p>
-          <input className=" mt-3 w-48 text-sm leading-2 border rounded-xl py-2 pl-10" type="text" aria-label="Email address" placeholder="Email address..."></input>
+          <input className=" mt-3 w-48 text-sm leading-2 hover:border-balck border rounded-xl py-2 pl-10" type="search" aria-label="Email address" placeholder="Email address..."></input>
           <button className="mt-3 bg-black text-white hover:bg-orange-600 hover:text-white font-b py-3 px-14 border rounded-xl">Subscribe</button>
         </div>
       </main>

@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { Bars2Icon, XMarkIcon} from '@heroicons/react/24/solid'
 
+
 export default function Navbar() {
     return (
         <main className="mt-0 flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
@@ -12,7 +13,7 @@ export default function Navbar() {
             <ul className="flex flex-row item-center">
                 <li className="p-1 mr-1">
                     <Link href="/live">
-                        <a className="text-lg font-n px-3 py-2 text-slate-600 rounded-lg hover:bg-slate-100 hover:text-black">Live</a>
+                        <a className="text-lg font-n px-3 py-2 text-slate-600 rounded-lg hover:bg-slate-100 hover:text-blackunderline hover:underline decoration-orange-600">Live</a>
                     </Link>
                 </li>
                 <li className=" p-1 mr-1">

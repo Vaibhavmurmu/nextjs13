@@ -10,8 +10,8 @@ export default function Sell() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="mt-16 flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
-        <card className="mt-12 w-100 rounded-xl border p-3 text-left hover:text-blue-600 focus:text-blue-600">
+      <main className="mt-16 flex w-full flex-1 flex-col items-center justify-centre px-20 text-center bg-gradient-to-r from-white to-orange-50">
+        <card className="mt-14 w-100 rounded-xl border p-3 text-left hover:text-blue-600 focus:text-blue-600">
           <text className="text-1xl font-normal mt-2">
             <p className="text-1xl font-normal"><button className="bg-blue-600 text-white font-n py-1 px-3 rounded mt-0">Latest</button> Introducing next generation and futre of shopping &rarr;</p>   
           </text>
@@ -258,13 +258,11 @@ export default function Sell() {
            Few steps and get started live shopping
           </p>
           <div className="mt-8 flex  max-w-7xl flex-wrap items-center justify-around sm:w-full">
-          <p className='mt-6 w-96 rounded-xl border p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">1</button> Create your live account
+          <p className='mt-6 w-96 p-6 text-center text-b'><button className="bg-black text-white font-b py-0 px-2 rounded-3xl mt-0">1</button> Create your runash account
           </p>
-          <p className='mt-6 w-96 rounded-xl border p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">2</button> Watch and schedule a live streaming 
+          <p className='mt-6 w-96 p-6 text-center text-b'><button className="bg-black text-white font-b py-0 px-2 rounded-3xl mt-0">2</button> Watch and schedule stream 
           </p>
-          <p className='mt-6 w-96 rounded-xl border p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">3</button> schedule prefered date and time
-          </p>
-          <p className='mt-6 w-96 rounded-xl border p-6 text-left bg-white hover:text-blue-600 focus:text-blue-600'><button className="bg-black text-white font-n py-0 px-2 rounded-3xl mt-0">4</button> Get ready for join live-stream
+          <p className='mt-6 w-96 p-6 text-center text-b'><button className="bg-black text-white font-b py-0 px-2 rounded-3xl mt-0">3</button> Lets ready for live session
           </p>
           </div>
           <h2 className='mt-24 text-3xl font-b'>

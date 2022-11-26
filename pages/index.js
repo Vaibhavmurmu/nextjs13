@@ -18,21 +18,18 @@ export default function Index() {
             <p className="text-1xl font-normal"><button className='bg-blue-600 text-white font-n py-1 px-3 rounded mt-0'>New</button> Introducing next generation and future of retail &rarr;</p>
           </badage>
         </card>
-        <h1 className="mt-12 text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
+        <h1 className="mt-12 text-5xl font-bold tracking-tight sm:text-center sm:text-6xl">
           Live retail streaming<br />
           <a className="text-orange-600" href="https://nextjs.org">
             platform
           </a>
         </h1>
 
-        <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
+        <p className="mt-12 text-lg leading-8 text-gray-600 sm:text-center">
           Where the retailers build own made live streaming store.
         </p>
         <Button />
-        <p className="mt-12 text-0xl bottom-2">
-            Get started free
-        </p>
-           <h1 className="mt-2 text-2xl font-b">
+           <h1 className="mt-10 text-2xl font-b">
                 <a className="text-black-600" href="https://nextjs.org">
                 Unique experience ✨
                 </a>
@@ -204,26 +201,32 @@ export default function Index() {
         <p className="mt-8 text-2xl text-center text-black hover:text-black">
           Explore more features,benifits and experience 
         </p>
-        <h1 className="mt-12 text-4xl text-orange-300 font-bold tracking-tight sm:text-center sm:text-6xl">
-            Get started live stream  
+        <h1 className="mt-12 text-1xl text-black font-n tracking-tight sm:text-center sm:text-4xl">
+            Create your own stream 
         </h1>
 
         <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
           Lets build your live broadcast product contents
         </p>
-        
-        <Button />
-        
+        <div className="flex gap-4 flex-cols-2 mt-10 max-w-2xl flex-wrap items-center justify-around">
+        <button className="bg-black text-white hover:text-orange-600 hover:bg-white hover:border-orange-600 font-medium py-4 px-14 rounded-lg mt-10 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">
+          <Link href="/register">
+            <a>Get strarted</a>
+         </Link>
+        </button>
+        <button className="bg-black text-white hover:bg-white hover:text-orange-600 hover:border-orange-600 font-medium py-4 px-14 rounded-lg mt-10 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">
+          <Link href="/register">
+            <a>Schedule</a>
+          </Link>
+        </button>
+        </div>   
         <Cta />
-         
-        
-
-        <div className="mt-8 flex max-w-full flex-wrap item-centre rounded-xl border justify-around bg-shadow-lg sm:w-full p-8">
-          <p className="mt-8 text-1xl text-bold">
+        <div className="mt-3 flex max-w-full flex-wrap item-centre rounded-xl border justify-around bg-shadow-lg sm:w-full py-8">
+          <p className="mt-3 text-2xl text-bold">
             Get live stream updates
           </p>
-          <input className=" mt-3 w-48 text-sm leading-2 hover:border-balck border rounded-xl py-2 pl-10" type="search" aria-label="Email address" placeholder="Email address..."></input>
-          <button className="mt-3 bg-black text-white hover:bg-orange-600 hover:text-white font-b py-3 px-14 border rounded-xl">Subscribe</button>
+          <input className=" mt-3 w-48 text-sm hover:border-balck border rounded-md py-2 pl-10" type="search" aria-label="Email address" placeholder="Email address..."></input>
+          <button className="mt-3 bg-black text-white hover:bg-orange-600 hover:text-white font-b py-3 px-14 border rounded-md">Subscribe</button>
         </div>
       </main>
     </div>

@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Head from 'next/head'
 import Image from 'next/image'
+import { MinusIcon, PlusIcon, } from '@heroicons/react/20/solid'
 
 export default function Faq() {
     return (
@@ -45,6 +46,12 @@ export default function Faq() {
                  </div>
                  <div className="mt-6 w-full rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600">
                     <h3 className="text-2xl font-bold">How to schedule a live streaming?</h3>
+                    
+                        <MinusIcon className="h-5 w-5" aria-hidden="true" />
+                    
+                        <PlusIcon className="h-5 w-5" aria-hidden="false" />
+                    
+
                     <p className="mt-4 text-xl">
                         <Link href="/register">
                             <a></a>

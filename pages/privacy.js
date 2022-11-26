@@ -8,12 +8,12 @@ export default function Privacy() {
             <title>Live Retail Streaming</title>
             <link rel="icon" href="/favicon.ico" />
         </Head>
-        <main className="mt-16 flex w-full flex-1 flex-col items-center justify-centre px-21 text-center dark:prose-invert">
-            <h1 className="mt-11 bg-gray-50 w-full p-16 text-6xl font-b">
+        <main className="mt-12 flex w-full flex-1 flex-col items-center justify-centre px-20 text-center dark:prose-invert">
+            <h1 className="mt-6 w-full p-16 text-6xl font-b">
                 Privacy Policy
             </h1>
             </main>
-            <div className="mt-16 prose prose-slate mx-auto lg:prose-lg relative w-full px-6 py-12 bg-white shadow-xl shadow-slate-700/10 ring-1 ring-gray-900/5 md:max-w-3xl md:mx-auto lg:max-w-4xl lg:pt-16 lg:pb-28">
+            <div className="mt-2 prose prose-slate mx-auto lg:prose-lg relative scroll-smooth w-full px-6 py-12 bg-natural-50 backdrop-blur-sm shadow-sm opecity-25 blur-none bg-white  shadow-slate-700/10 ring-1 ring-gray-900/5 md:max-w-3xl md:mx-auto lg:max-w-4xl lg:pt-16 lg:pb-28">
                 <p className="lead">Effective date: April 06, 2022</p>
                 <p>RunAsh (us, we, or our) operates the RunAsh website (the Service).</p>
                 <p>This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. Our Privacy Policy for RunAsh is created with the help of the <a href="https://www.freeprivacypolicy.com/free-privacy-policy-generator.php">Free Privacy Policy Generator</a>.</p>
@@ -62,12 +62,7 @@ export default function Privacy() {
                     </p>
                 </ul>
             </div>
-            <div className="flex w-full flex-1 flex-col items-center justify-centre px-21 text-center dark:prose-invert">
-            <h1 className="mt-16 bg-gray-50 w-full p-16 text-6xl font-b">
-                admin@runash.in
-            </h1>
-            </div>
-            </div>
+        </div>
     )
 }
         

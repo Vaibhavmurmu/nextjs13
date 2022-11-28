@@ -17,9 +17,9 @@ export default function Sell() {
           </text>
           </card> 
         <h1 className="mt-12 text-6xl font-bold">
-          Build your own live{' '}<br /> 
+          Let's build your own{' '}<br /> 
           <a className="text-orange-600" href="https://nextjs.org">
-           streaming.
+           live stream
           </a>
         </h1>
 

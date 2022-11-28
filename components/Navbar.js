@@ -1,11 +1,11 @@
 import Link from "next/link"
-import { Bars2Icon, XMarkIcon} from '@heroicons/react/24/solid'
+import { Bars2Icon, XMarkIcon,EllipsisVerticalIcon} from '@heroicons/react/24/solid'
 
 
 export default function Navbar() {
     return (
         <main className="mt-0 flex w-full flex-1 flex-col items-center justify-centre px-20 text-center">
-        <div className=" mt-0 items-center max-w-auto w-full justify-around fixed flex-row bg-natural-50 backdrop-blur-sm shadow-sm opecity-25 blur-none h-4 px-20 py-12 hidden lg:flex">
+        <div className=" mt-0 items-center max-w-auto sm:w-full justify-around fixed flex-row bg-natural-50 backdrop-blur-sm shadow-sm opecity-25 blur-none h-4 px-20 py-12 hidden sm:flex">
         <div className="flex flex-row items-left">
             <h1 className="text-3xl font- p-4 mr-0">RunAsh</h1>
         </div> 
@@ -49,6 +49,9 @@ export default function Navbar() {
                 <Link href="/js-form">
                 <a className="text-lg font-n px-3 py-2"><button className="bg-orange-600 text-white hover:text-orange-600 hover:bg-white hover:border-orange-600 font-n py-1 px-3  border rounded-lg mt-0">Sigin</button></a>
                 </Link>
+            </li>
+            <li className="p-1 mr-1">
+             <EllipsisVerticalIcon  className="h-7 w-7" hidden="true"/>
             </li>
             </ul>
         </div>
